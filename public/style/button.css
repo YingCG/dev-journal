@@ -1,0 +1,51 @@
+.nav{
+justify-content: flex-end;
+}
+  
+  .button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+
+}
+
+.button a{
+    text-decoration: none;
+    font-family: 'Tajawal', sans-serif;
+} 
+
+.btn {
+    background-color: whitesmoke;
+    padding: 0.3rem 1rem;
+    cursor: pointer;
+    border: none;
+    color: #0061AF;
+    font-size: 15px;
+    margin: 0 0.3rem 0.3rem 0;
+}
+
+.dark{
+    background-color: #0061AF ;
+    padding: 0.3rem 1rem;
+    margin-left: 0.5rem;
+
+}
+
+.dark a{
+    color: thistle;
+}
+.nav-btn {
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    border: none;
+    background-color: #0061AF;
+    color: white;
+    font-size: 18px;
+    border-radius: 25px;
+    margin: 0.5rem 0.5rem;
+}
+
+.checkForm .btn{
+    margin-block-start: 0.5rem;
+}
