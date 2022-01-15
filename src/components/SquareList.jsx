@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 
 function SquareList () {
 
@@ -72,8 +72,8 @@ function SquareList () {
 
         <div className='square' style={{backgroundColor: myColors[9]}}>
           UX design<br/><br/>
-          <button className='btn'>Figma</button>
-          <button className='btn'>Adobe XD</button>
+          <button className='btn'><a href='https://xd.adobe.com/view/5bee77bc-6104-48b2-b6ab-e0dbcecbaaf7-0ebd/'>Adobe XD</a></button>
+          <button className='btn'><a href='https://www.figma.com/file/HlozULH29aHAGHduxfEeYC/Resource-Art?node-id=1%3A791'>Figma</a></button>
 
         </div>
     {/* <button onClick={handleClick}>Change colour pallete</button> */}
