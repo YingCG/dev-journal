@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="Grid-cell">
       <div className="header">
-        <img src="images/YingCG.svg" alt="logo" style={{ width: "100px", height: "auto" }}/>
+        <img src="images/YingCG.svg" alt="logo" style={{ width: "85px", height: "auto" }}/>
         <div className="header-content">
         
           <h1>Ying Web Desgin &amp; Develop</h1>
