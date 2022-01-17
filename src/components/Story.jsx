@@ -15,7 +15,7 @@ function Story (props) {
         <>
             <div className="square" style={{ backgroundColor: storyStyle() }} >
                 <h3> {props.title} </h3>
-                <form className="checklist">
+                <form className="checklist" key={props.id}>
                     <p>
                         {props.checklist.map(checklistItem => {
                             return (
@@ -23,12 +23,11 @@ function Story (props) {
                                     <input type='checkbox' checked={checked} /> 
                                     <span>{checklistItem.content}</span>
                                 </div>
-
                         )
                         })}
                     </p>
+                <button > {props.description} </button>
                 </form>
-                <p> {props.description} </p>
             </div>
         </>
     )

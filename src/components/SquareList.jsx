@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
+
 function SquareList () {
 
     function getColorFromPalette () {
@@ -29,53 +30,57 @@ function SquareList () {
   return (
     <>
       <div className='square-list'>
-        <div className='square' style={{backgroundColor: myColors[0]}}>
-          HTML &amp; CSS Website  <br/><br/>
-          <button className='btn'><a href='https://yingcg.github.io/EyeCandyCinema/' >Eye Candy Cinema</a></button>
-          <button className='btn'><a href='https://yingcg.github.io/blog/html-css.html'>My CSS Playground</a></button>
+      <div className='square' style={{backgroundColor: myColors[0]}}>
+          UX design<br/><br/>
+          <button className='btn'><a href='https://xd.adobe.com/view/5bee77bc-6104-48b2-b6ab-e0dbcecbaaf7-0ebd/'>Adobe XD</a></button>
+          <button className='btn'><a href='https://www.figma.com/file/HlozULH29aHAGHduxfEeYC/Resource-Art?node-id=1%3A791'>Figma</a></button>
         </div>
 
         <div className='square' style={{backgroundColor: myColors[1]}}>
+          HTML &amp; CSS Website  <br/><br/>
+          <button className='btn'><a href='https://yingcg.github.io/EyeCandyCinema/' >Eye Candy Cinema</a></button>
+          <button className='btn'><Link to='/projects/css' >My CSS Playground</Link></button>
+
+        </div>
+
+        <div className='square' style={{backgroundColor: myColors[2]}}>
           Javascript <br/><br/>
           <button className='btn'><a href='https://yingcg.github.io/blog/js-fundamentals.html'>JavaScript Basic</a></button>
           <button className='btn'><a href='https://yingcg.github.io/minesweeper/'>Minesweeper Game</a></button>
         </div>
 
-        <div className='square' style={{backgroundColor: myColors[2]}}>
+        <div className='square' style={{backgroundColor: myColors[3]}}>
           HTML | CSS | JavaScript<br/><br/>
           <button className='btn'><a href='https://yingcg.github.io/retouchbarn/'>Retouch Barn</a></button>
         </div>
 
-        <div className='square' style={{backgroundColor: myColors[3]}}>
+        <div className='square' style={{backgroundColor: myColors[4]}}>
           React App <br/><br/>
+          <p>This is a web app that I build base on user experience research.</p>
           <button className='btn'><a href='http://photoimagecbd.herokuapp.com'>Photo Image CBD</a></button>
+          <button className='btn'><Link to='/projects/photoimage' >About the project</Link></button>
         </div>
 
-        <div className='square' style={{backgroundColor: myColors[4]}}>
+        <div className='square' style={{backgroundColor: myColors[5]}}>
           Templating language &amp; Express Router <br/><br/>
           <button className='btn'><a href='https://pupparazi-ying.herokuapp.com/puppies'>Pupparazzi</a></button>
         </div>
 
-        <div className='square' style={{backgroundColor: myColors[5]}}>
+        <div className='square' style={{backgroundColor: myColors[6]}}>
           React Form with database
         </div>
 
-        <div className='square' style={{backgroundColor: myColors[6]}}>
-          API
-        </div>
-
         <div className='square' style={{backgroundColor: myColors[7]}}>
+          API
         </div>
 
         <div className='square' style={{backgroundColor: myColors[8]}}>
         </div>
 
         <div className='square' style={{backgroundColor: myColors[9]}}>
-          UX design<br/><br/>
-          <button className='btn'><a href='https://xd.adobe.com/view/5bee77bc-6104-48b2-b6ab-e0dbcecbaaf7-0ebd/'>Adobe XD</a></button>
-          <button className='btn'><a href='https://www.figma.com/file/HlozULH29aHAGHduxfEeYC/Resource-Art?node-id=1%3A791'>Figma</a></button>
-
         </div>
+
+        
     {/* <button onClick={handleClick}>Change colour pallete</button> */}
       </div>
     </>

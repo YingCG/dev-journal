@@ -1,12 +1,12 @@
 import React from "react";
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import Nav from "./Nav";
 
 function Header() {
   return (
     <div className="Grid-cell">
       <div className="header">
-        <img src="images/YingCG.svg" alt="logo" style={{ width: "85px", height: "auto" }}/>
+        <Link to='/'><img src="images/YingCG.svg" alt="logo" style={{ width: "85px", height: "auto" }}/></Link>
         <div className="header-content">
         
           <h1>Ying Web Design &amp; Develop</h1>

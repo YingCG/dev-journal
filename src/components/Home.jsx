@@ -9,14 +9,16 @@ function Home () {
         <Ascii />
         <h3><Greeting /> </h3>
         <p>
-        I am a graphic designer who are now recently starting my web development journey. 
-        I am looking forward to designing useful things, solving problems, and bring in good experiences with a harmonic interface for the required function.
-        <br />
-        By the way, if you use Click here to have fun generating your ASCII text in a new tab if you are curious about it!!! 
-        <button className='btn dark'>
-          <a href="http://patorjk.com/software/taag/#p=display&amp;f=Alpha&amp;t=hello" target="_blank" rel="noopener noreferrer" >ASCII Text Generator </a>
-        </button>
-      </p>
+        Programming is a universe itself yet to discover... Here, I am tracking my growth as a developer.
+        </p>
+        <p>
+        To build useful things, solving problems, and bring in good experiences with human-centered products. 
+        I am approaching problems with empathy, creativity, and authenticity with harmonic interface.
+        The main area of my expertise is front-end development, HTML, CSS, React JS, building small and medium web apps.
+        </p>
+        <h5>By the way, if you use Click here to have fun generating your ASCII text in a new tab if you are curious about it!!! 
+           <a href="http://patorjk.com/software/taag/#p=display&amp;f=Alpha&amp;t=hello" target="_blank" rel="noopener noreferrer" >  ASCII Text Generator </a>
+        </h5>
     </>
   )
 }
