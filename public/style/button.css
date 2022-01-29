@@ -25,6 +25,7 @@ justify-content: flex-end;
     margin: 0 0.3rem 0.3rem 0;
 }
 
+
 .dark{
     background-color: #0061AF ;
     padding: 0.3rem 1rem;
@@ -42,7 +43,7 @@ justify-content: flex-end;
     background-color: #0061AF;
     color: white;
     font-size: 18px;
-    border-radius: 25px;
+    border-radius: 4rem;
     margin: 0.5rem 0.5rem;
 }
 

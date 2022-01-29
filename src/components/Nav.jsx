@@ -6,10 +6,10 @@ function Nav () {
 
   return (
     <>
-      <nav>
+      <nav className='top-nav'>
         <Link to='/'><button className='nav-btn'>Home</button></Link>
         <Link to='/projects'><button className='nav-btn'>Projects</button></Link>
-        <Link to='/stories'><button className='nav-btn'>Stories</button></Link>
+        {/* <Link to='/stories'><button className='nav-btn'>Stories</button></Link> */}
       </nav>
     </>
   )

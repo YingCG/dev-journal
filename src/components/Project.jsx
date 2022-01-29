@@ -14,6 +14,7 @@ function Project(){
             }}>
                 {' '} back to view all Projects
             </button>
+            
         </div>
     )
 }

@@ -9,8 +9,13 @@ function Stories() {
   return (
     <>
       <div className="page-container">
-          <h2>B.Y.O. Cup Corner. </h2>
-          <p> Every problem I come across is a learning journey for me, here are some Human skills I practice to code along. To remind myself practicing how to be kind, have help to growth and develop my strength.</p>
+
+          <h2>Learning to program and learning to think. </h2>
+          <p> 
+          Every problem come across is a learning curve for me.
+          How to code enjoyable and consistent? 
+           To remind myself to keep Calm and stay curious, I practice some Human skills to code along. 
+          Below are some de-tress checklist base on the situation I am facing. </p>
           <div className="stories square-list">
             {storiesData.map (stories => {
               return (
@@ -19,7 +24,7 @@ function Stories() {
             })}
 
           </div>
-      
+          
       </div>
     </>
   );

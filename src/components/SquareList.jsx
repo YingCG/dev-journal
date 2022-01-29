@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-
+import Dice from './Dice';
+import RollDice from './RollDice';
 
 function SquareList () {
 
@@ -10,9 +11,9 @@ function SquareList () {
 
       const date = new Date();
       const currentTime = date.getHours()
-      const morningPallete = ['#FFFAFA', '#F9F8EB', '#F9ECEC','#F0D9DA','#C8D9EB','#ECF2F9','#ADD2C9','#A3E4DB','#FBFFE2','#CEE5D0']
-      const afternoonPallete = ['#DBD0C0', '#FAEEE0', '#F9E4C8','#F9CF93','#FFADAD','#EFEFEF','#FCD8D4','#FDF6F0','#F8E2CF','#F5C6AA']
-      const eveningPallete = ['#A3DDCB', '#FFE3DE', '#D3DEDC','#92A9BD','#7C99AC','#B1D0E0','#C9CCD5','#D4ECDD','#F0D9FF','#F3F1F5']
+      const morningPallete = [ '#FFF5E1','#FFFAFA', '#F9ECEC','#9AD0EC','#FFFEB7','#EDFFA9','#FED1EF','#A3E4DB','#FBFFE2','#EDD2F3']
+      const afternoonPallete = ['#88E0EF','#FFA1C9','#FFE162','#FDA65D','#FFE194','#F2FFE9','#CDF2CA','#FFFDE8','#FFF7AE','#FDFFBC','#F5C6AA']
+      const eveningPallete = ['#A3DDCB', '#FFE3DE', '#66BFBF','#126E82','#DBE6FD','#3282B8','#B4AEE8','#F3F1F5','#F0D9FF','#BEAEE2','#D3D5FD']
 
       // if (currentTime < 12){
       //   return morningPallete;
@@ -32,52 +33,61 @@ function SquareList () {
       <div className='square-list'>
       <div className='square' style={{backgroundColor: myColors[0]}}>
           UX design<br/><br/>
-          <button className='btn'><a href='https://xd.adobe.com/view/5bee77bc-6104-48b2-b6ab-e0dbcecbaaf7-0ebd/'>Adobe XD</a></button>
+          <button className='btn'><a href='https://xd.adobe.com/view/5bee77bc-6104-48b2-b6ab-e0dbcecbaaf7-0ebd/' >Adobe XD</a></button>
           <button className='btn'><a href='https://www.figma.com/file/HlozULH29aHAGHduxfEeYC/Resource-Art?node-id=1%3A791'>Figma</a></button>
         </div>
 
         <div className='square' style={{backgroundColor: myColors[1]}}>
           HTML &amp; CSS Website  <br/><br/>
-          <button className='btn'><a href='https://yingcg.github.io/EyeCandyCinema/' >Eye Candy Cinema</a></button>
+          <button className='btn'><a href='https://yingcg.github.io/EyeCandyCinema/' target='blank'>Eye Candy Cinema</a></button>
           <button className='btn'><Link to='/projects/css' >My CSS Playground</Link></button>
 
         </div>
 
         <div className='square' style={{backgroundColor: myColors[2]}}>
           Javascript <br/><br/>
-          <button className='btn'><a href='https://yingcg.github.io/blog/js-fundamentals.html'>JavaScript Basic</a></button>
-          <button className='btn'><a href='https://yingcg.github.io/minesweeper/'>Minesweeper Game</a></button>
+          <button className='btn'><a href='https://yingcg.github.io/blog/js-fundamentals.html' target='blank'>JavaScript Basic</a></button>
+          <button className='btn'><a href='https://yingcg.github.io/minesweeper/' target='blank'>Minesweeper Game</a></button>
         </div>
 
         <div className='square' style={{backgroundColor: myColors[3]}}>
           HTML | CSS | JavaScript<br/><br/>
-          <button className='btn'><a href='https://yingcg.github.io/retouchbarn/'>Retouch Barn</a></button>
+          <button className='btn'><a href='https://yingcg.github.io/retouchbarn/' target='blank'>Retouch Barn</a></button>
         </div>
 
         <div className='square' style={{backgroundColor: myColors[4]}}>
           React App <br/><br/>
-          <p>This is a web app that I build base on user experience research.</p>
-          <button className='btn'><a href='http://photoimagecbd.herokuapp.com'>Photo Image CBD</a></button>
-          <button className='btn'><Link to='/projects/photoimage' >About the project</Link></button>
+          {/* <p>This is a web app that I build base on user experience research.</p> */}
+          <button className='btn'><a href='http://photoimagecbd.herokuapp.com' target='blank'>Photo Image CBD</a></button><br/>
+          {/* <button className='btn'><Link to='/projects/photoimage' >About the project</Link></button> */}
+          <br/>
+          {/* 
+          <button className='btn'><a href='http://photoimagecbd.herokuapp.com' target='blank'>Vending Machine</a></button><br/> */}
         </div>
 
         <div className='square' style={{backgroundColor: myColors[5]}}>
-          Templating language &amp; Express Router <br/><br/>
-          <button className='btn'><a href='https://pupparazi-ying.herokuapp.com/puppies'>Pupparazzi</a></button>
+          Templating language<br/>
+          Express Router<br/>
+          <br/>
+          <button className='btn'><a href='https://pupparazi-ying.herokuapp.com/puppies' target='blank'>Pupparazzi</a></button>
         </div>
 
         <div className='square' style={{backgroundColor: myColors[6]}}>
-          React Form with database
+          React State <br/>
+          React Form
+          <RollDice/><br/>
         </div>
 
         <div className='square' style={{backgroundColor: myColors[7]}}>
-          API
+        Client side Routing <br/>
         </div>
 
         <div className='square' style={{backgroundColor: myColors[8]}}>
+        API
         </div>
 
         <div className='square' style={{backgroundColor: myColors[9]}}>
+        Fullstack-app
         </div>
 
         
