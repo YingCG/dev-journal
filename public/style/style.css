@@ -17,9 +17,19 @@ body{
 .app-container {
     position: relative;
     margin-top: 25px;
-
     margin: 25px;
+    height: 100vh;
   }
+
+  .Grid-cell{
+    display: flex;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.page-container{
+  height: 100vh;
+}
 
 .logo{
   margin-right: 1rem;
@@ -103,7 +113,7 @@ display: flex;
         border: 1px solid #006A71;
         margin-left: 10px;
         margin-right: 10px;
-        font-size: 15px;
+        font-size: 12px;
     }
 
   }
@@ -135,7 +145,7 @@ display: flex;
         margin-left: 10px;
         margin-right: 10px;
         object-fit: contain;
-        font-size: 15px;
+        font-size: 14px;
     }
   }
   
@@ -156,7 +166,7 @@ display: flex;
     .Main-content{
         padding: 20px;
         height: auto;
-        font-size: 20px;
+        font-size: 18px;
         margin-right: 10px;
     }
   }

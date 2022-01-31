@@ -13,7 +13,7 @@ function SquareList () {
       const currentTime = date.getHours()
       const morningPallete = [ '#FFF5E1','#FFFAFA', '#F9ECEC','#9AD0EC','#FFFEB7','#EDFFA9','#FED1EF','#A3E4DB','#FBFFE2','#EDD2F3']
       const afternoonPallete = ['#88E0EF','#FFA1C9','#FFE162','#FDA65D','#FFE194','#F2FFE9','#CDF2CA','#FFFDE8','#FFF7AE','#FDFFBC','#F5C6AA']
-      const eveningPallete = ['#A3DDCB', '#FFE3DE', '#66BFBF','#126E82','#DBE6FD','#3282B8','#B4AEE8','#F3F1F5','#F0D9FF','#BEAEE2','#D3D5FD']
+      const eveningPallete = ['#A3DDCB', '#FFE3DE', '#66BFBF','#DBE6FD','#77ACF1','#E1F5F2','#B4AEE8','#F3F1F5','#F0D9FF','#BEAEE2','#D3D5FD']
 
       // if (currentTime < 12){
       //   return morningPallete;
@@ -87,7 +87,7 @@ function SquareList () {
         </div>
 
         <div className='square' style={{backgroundColor: myColors[9]}}>
-        Fullstack-app
+        Database
         </div>
 
         
