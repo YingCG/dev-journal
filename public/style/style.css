@@ -141,7 +141,7 @@ display: flex;
 
     .Main-content{
         padding: 20px;
-        height: auto;
+        height: 100vh;
         margin-left: 10px;
         margin-right: 10px;
         object-fit: contain;

@@ -64,8 +64,8 @@ function Css () {
                     </section>
 
                     {/* What are the best practices associated with using classNamees vs. ids? */}
-                    <section id="square5" className="square">classNamees
-                        <p>classNamees can apply the same style a group of elements, you can add more than one className to the element.</p>
+                    <section id="square5" className="square">className
+                        <p>className can apply the same style a group of elements, you can add more than one className to the element.</p>
                         <p>Use <b>.(Dot)</b> to style className</p>
                         <br />
                         <p><b>square</b> is the className name on this page</p>
