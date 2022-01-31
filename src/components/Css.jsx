@@ -1,5 +1,4 @@
 import React from "react";
-// import {useNavigate, useParams} from 'react-router-dom'
 
 function Css () {
 
@@ -125,7 +124,6 @@ function Css () {
 
 
                     <section id="square11" className="square">inline
-                        {/* < />!--  --> */}
 
                         <p>
                             What does it mean to display inline vs inline blocks? To displays the element on the same line for example here: <b>p tag </b> in different section still show continuing block
