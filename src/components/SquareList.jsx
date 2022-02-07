@@ -8,7 +8,7 @@ import projects from '../data/projectroadmap';
 function SquareList () {
   const pallete = ['#E4EFE7','#D6E5FA', '#D4E2D4','#D9D7F1','#F3F1F5', '#7EB5A6', '#CEE5D0','#EDF6E5', '#F0D9FF','#F4F9F9','#D3DEDC', '#E4D8DC', '#FEFBF3','#93B5C6', '#F7F2E7', '#C9CCD5', '#FFFDDE', '#F0ECE3','#CDF2CA', '#FFEFEF','#FCF9EA','#BADFDB', '#F8A978','#FFC5A1','#F3F8FF', '#DEECFF', '#C6CFFF', '#E8D3FF'];
   const morningPallete = [ '#FFF5E1','#FFFAFA', '#F9ECEC','#9AD0EC','#FFFEB7','#EDFFA9','#FED1EF','#A3E4DB','#FBFFE2','#EDD2F3']
-  const afternoonPallete = ['#88E0EF','#FFA1C9','#FFE162','#FDA65D','#FFE194','#F2FFE9','#CDF2CA','#FFFDE8','#FFF7AE','#FDFFBC','#F5C6AA']
+  const afternoonPallete = ['#88E0EF','#FFADAD','#FFE162','#EFEFEF','#FFB085','#F2FFE9','#CDF2CA','#FFFDE8','#E6DDC6','#FDFFBC','#F5C6AA']
   const eveningPallete = ['#A3DDCB', '#FFE3DE', '#66BFBF','#DBE6FD','#77ACF1','#E1F5F2','#B4AEE8','#F3F1F5','#F0D9FF','#BEAEE2','#D3D5FD']
 
   const [colors, setColors] = useState(getColorFromPalette())
@@ -44,40 +44,6 @@ function SquareList () {
           projects.map((info, index) => <Square key={index} color={colors[index]} info={info} />)
         }
        
-        {/* <div className='square' style={{backgroundColor: colors[1]}}>
-          HTML &amp; CSS Website  <br/><br/>
-          <button className='btn'><a href='https://yingcg.github.io/EyeCandyCinema/' target='blank'>Eye Candy Cinema</a></button>
-          <button className='btn'><Link to='/projects/css' >My CSS Playground</Link></button>
-
-        </div> */}
-
-        <div className='square' style={{backgroundColor: colors[2]}}>
-          Javascript <br/><br/>
-          <button className='btn'><a href='https://yingcg.github.io/blog/js-fundamentals.html' target='blank'>JavaScript Basic</a></button>
-          <button className='btn'><a href='https://yingcg.github.io/minesweeper/' target='blank'>Minesweeper Game</a></button>
-        </div>
-
-        <div className='square' style={{backgroundColor: colors[3]}}>
-          HTML | CSS | JavaScript<br/><br/>
-          <button className='btn'><a href='https://yingcg.github.io/retouchbarn/' target='blank'>Retouch Barn</a></button>
-        </div>
-
-        <div className='square' style={{backgroundColor: colors[4]}}>
-          React App <br/><br/>
-          {/* <p>This is a web app that I build base on user experience research.</p> */}
-          <button className='btn'><a href='http://photoimagecbd.herokuapp.com' target='blank'>Photo Image CBD</a></button><br/>
-          {/* <button className='btn'><Link to='/projects/photoimage' >About the project</Link></button> */}
-          <br/>
-          {/* 
-          <button className='btn'><a href='http://photoimagecbd.herokuapp.com' target='blank'>Vending Machine</a></button><br/> */}
-        </div>
-
-        <div className='square' style={{backgroundColor: colors[5]}}>
-          Templating language<br/>
-          Express Router<br/>
-          <br/>
-          <button className='btn'><a href='https://pupparazi-ying.herokuapp.com/puppies' target='blank'>Pupparazzi</a></button>
-        </div>
 
         <div className='square' style={{backgroundColor: colors[6]}}>
           React State <br/>
