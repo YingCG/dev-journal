@@ -40,7 +40,6 @@ function SquareList () {
 
   return (
     <>
-      <button className='mid-btn' onClick={changeColourPallete}>Change colour pallete</button>
       <div className='square-list'>
 
         {
@@ -51,8 +50,8 @@ function SquareList () {
         <div className='square' style={{backgroundColor: colors[6]}}>
           React State <br/>
           React Form
-          <RollDice/><br/>
-          <TodoList />
+          {/* <RollDice/><br/> */}
+          <button className='btn' onClick={changeColourPallete}><a>Change colour pallete</a></button>
         </div>
 
         <div className='square' style={{backgroundColor: colors[7]}}>

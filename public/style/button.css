@@ -33,6 +33,10 @@ justify-content: flex-end;
 
 }
 
+.btn a:hover{
+    color: yellow;
+}
+
 .dark{
     background-color: #0061AF ;
     padding: 0.3rem 1rem;
@@ -54,13 +58,15 @@ justify-content: flex-end;
     margin: 0.5rem 0.5rem;
 }
 
+
+
 .checkForm .btn{
     margin-block-start: 0.5rem;
 }
 
 
-.mid-btn{
-    background-color: grey ;
+/* .mid-btn{
+    background-color: black ;
     padding: 0.3rem 1rem;
     cursor: pointer;
     border: none;
@@ -68,4 +74,4 @@ justify-content: flex-end;
     font-size: 12px;
     border-radius: 4rem;
     margin-left: 0.5rem;
-}
+} */
