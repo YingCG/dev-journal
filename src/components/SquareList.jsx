@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import {Link} from 'react-router-dom'
 import RollDice from './RollDice';
 import TodoList from './TodoList';
 import Square from './Square';
@@ -23,10 +22,10 @@ function SquareList () {
     }
 
   
-    function handleClick(){
+    function changeColourPallete(){
       const newColors = [];
 
-      for (let i = 0; i < 9; i++){
+      for (let i = 0; i < 10; i++){
         const newColor = pallete[Math.floor(Math.random() * pallete.length)];
         newColors.push(newColor)
       }
@@ -34,14 +33,18 @@ function SquareList () {
       setColors(newColors)
     }
 
+    function changeOneColour(newColor, i){
+      colors[i] = newColor
+      setColors([...colors])
+    }
 
   return (
     <>
-      <button className='mid-btn' onClick={handleClick}>Change colour pallete</button>
+      <button className='mid-btn' onClick={changeColourPallete}>Change colour pallete</button>
       <div className='square-list'>
 
         {
-          projects.map((info, index) => <Square key={index} color={colors[index]} info={info} />)
+          projects.map((info, index) => <Square key={index} colors={colors} index={index} info={info} updateColor={changeOneColour}/>)
         }
        
 
