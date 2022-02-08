@@ -2,8 +2,12 @@ const projects = [
     {
         id: 'square1',
         title: "UX design",
-        description: null,
-        links: [{
+        description: "Considering the Why, What and How of product use. To learn the value of customer journey mapping from broad patterns to individual relevant experiences. Wireframe tool helps us plan out the ideal blueprint of a website.",
+        links: [ {
+          title: "Customer Journey",
+          url: "/projects/uxdesign",
+          route: true
+        },{
           title: "Adobe XD",
           url: "https://xd.adobe.com/view/5bee77bc-6104-48b2-b6ab-e0dbcecbaaf7-0ebd/"
         },
@@ -15,7 +19,7 @@ const projects = [
       {
         id: 'square2',
         title: "HTML & CSS Website",
-        description: null,
+        description: "HTML help to build the architecture of a website. CSS allowed us to apply styles of the space. We specify the layout according to the moodboard and concept we are achieving. ",
         links: [{
           title: "Eye Candy Cinema",
           url: "https://yingcg.github.io/EyeCandyCinema/"
@@ -29,10 +33,12 @@ const projects = [
       {
         id: 'square3',
         title: "Vanilla Javascript",
-        description: null,
+        description: "JavaScript can access and change HTML elements, HTML attributes and CSS styles of a website.Using JavaScript to manipulate the DOM, and adding events to the website to create better experience in the browser.",
         links: [{
-          title: "Javascript Note",
-          url: "https://yingcg.github.io/blog/js-fundamentals.html"
+          title: "Javascript Basic",
+          url: "/projects/javascript",
+          route: true
+          // url: "https://yingcg.github.io/blog/js-fundamentals.html"
         },
         {
           title: "Minesweeper Game",
@@ -42,7 +48,7 @@ const projects = [
       {
         id: 'square4',
         title: "HTML | CSS | Javascript",
-        description: null,
+        description: "You can program actions, conditions, calculations, network requests, concurrent tasks and many other kinds of instructions. Just like connect to the electric and water supply to the site, little behaviour to make beautiful space better experience while enjoy and stay.",
         links: [{
           title: "Retouch Barn",
           url: "https://yingcg.github.io/retouchbarn/"
@@ -54,20 +60,28 @@ const projects = [
       },
       {
         id: 'square5',
-        title: "React App",
-        description: null,
+        title: "Functions | Events | Callbacks",
+        description: "Now you know how to write JavaScript code, and how to use functions like getElementById() to make your webpage interactive. ",
         links: [{
-          title: "Photo Image CBD",
-          url: "http://photoimagecbd.herokuapp.com"
+          title: "Functions & Events",
+          url: "",
+          route: true
+        }, {
+          title: "Classes",
+          url: "",
+          route: true
         }]
       },
       {
         id: 'square6',
-        title: "Templating language | Express Router",
-        description: null,
+        title: "JavaScript library ",
+        description: "JavaScript library for Object-Oriented programming that helps to create animated, interactive webpages. Don’t repeat yourself. Use templates instead by creating reusable components. ",
         links: [{
-          title: "Pupparazzi",
+          title: "Handlebars",
           url: "https://pupparazi-ying.herokuapp.com/puppies"
+        },{
+          title: "React App",
+          url: "http://photoimagecbd.herokuapp.com"
         }]
       }
 ]

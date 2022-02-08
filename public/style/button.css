@@ -22,7 +22,7 @@ justify-content: flex-end;
     border: none;
     /* color: #0061AF; */
     color: white;
-    font-size: 15px;
+    /* font-size: 15px; */
     margin: 0 0.3rem 0.3rem 0;
     border-radius: 4rem;
 }
@@ -64,14 +64,33 @@ justify-content: flex-end;
     margin-block-start: 0.5rem;
 }
 
+.pallete{
+    padding: 0.5rem;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    background-color: white;
+    color: #ED0BFF;
+}
 
-/* .mid-btn{
+.pallete-btn{
     background-color: black ;
     padding: 0.3rem 1rem;
     cursor: pointer;
     border: none;
-    color: white;
-    font-size: 12px;
     border-radius: 4rem;
-    margin-left: 0.5rem;
-} */
+    color: #ED0BFF;
+    margin-block-end: 0.5em;
+}
+
+.pallete a{
+    color: #ED0BFF;
+    font-weight: bold;
+}
+
+.pallete-btn:hover{
+    background-color: #ED0BFF ;
+}
+
+.pallete-btn:hover a{
+    color: black;
+}
