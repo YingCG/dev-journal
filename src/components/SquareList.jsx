@@ -51,7 +51,7 @@ function SquareList () {
           React State 
           <p>State is used with React Component Classes to make them dynamic.</p><br/>
           <div className='pallete'>
-          <h6 className='pallete'>You can  change the colour pallete of this page by clicking this button or clicking individual square color to change colour. </h6>
+          <h6>You can  change the colour pallete of this page by clicking this button or clicking individual square color to change colour. </h6>
           <button className='pallete-btn' onClick={changeColourPallete}><a>Change colour pallete</a></button> 
           </div>
           {/* <RollDice/><br/> */}
