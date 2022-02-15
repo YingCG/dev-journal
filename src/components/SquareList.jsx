@@ -38,24 +38,25 @@ function SquareList () {
 
   return (
     <>
+              <button className='pallete-btn' onClick={changeColourPallete}><a>Change colour pallete</a></button> 
+
       <div className='square-list'>
 
         {
           projects.map((info, index) => <Square key={index} colors={colors} index={index} info={info} updateColor={changeOneColour}/>)
         }
        
-
+        <div className='square-children' onClick={changeColourPallete} >
         <Square colors={colors} index={6} info={{
         title: "React State",
         description: "State is used with React Component Classes to make them dynamic.",
         links: []}} updateColor={changeOneColour} >
            
-          <div className='pallete'>
+          <div className='pallete' >
           <h6>You can  change the colour pallete of this page by clicking this button or clicking individual square color to change colour. </h6>
-          <button className='pallete-btn' onClick={changeColourPallete}><a>Change colour pallete</a></button> 
           </div>
         </Square>
-
+      </div>
 
         {/* <div className='square' style={{backgroundColor: colors[7]}}>
         React Form<br/>

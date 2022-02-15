@@ -82,6 +82,7 @@ justify-content: flex-end;
     border-radius: 4rem;
     color: #ED0BFF;
     margin-block-end: 0.5em;
+    margin-left: 0.5rem;
 }
 
 .pallete a{
@@ -95,4 +96,9 @@ justify-content: flex-end;
 
 .pallete-btn:hover a{
     color: black;
+}
+
+.pallete:hover{
+    background-color: black;
+    cursor: pointer;
 }
