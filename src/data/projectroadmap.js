@@ -83,6 +83,37 @@ const projects = [
           title: "React App",
           url: "http://photoimagecbd.herokuapp.com"
         }]
+      },{
+        id: 'square7',
+        title: "React Form",
+        description: "Handling Multiple Inputs ",
+        links: [{
+          title: "Your To-do List",
+          url: "/projects/todolist",
+          route: true
+        } ]
+      },{
+        id: 'square8',
+        title: "API",
+        description: "Imagine you’re sitting at a table in a restaurant with a menu of choices to order from. The kitchen is the part of the “system” that will prepare your order. What is missing is the critical link to communicate your order to the kitchen and deliver your food back to your table. That’s where the waiter or API comes in. ",
+        links: [{
+          title: "API",
+           url: "/projects/api",
+          route: true
+        } ]
+      },{
+        id: 'square9',
+        title: "Database",
+        description: "Imagine you’re sitting at a table in a restaurant with a menu of choices to order from. The kitchen is the part of the “system” that will prepare your order. What is missing is the critical link to communicate your order to the kitchen and deliver your food back to your table. That’s where the waiter or API comes in. ",
+        links: [{
+          title: "Knex",
+           url: "/projects/knex",
+          route: true
+        },{
+          title: "MongoDB",
+          url: "/projects/mongodb",
+         route: true
+        } ]
       }
 ]
 
