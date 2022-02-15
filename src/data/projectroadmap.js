@@ -36,9 +36,8 @@ const projects = [
         description: "JavaScript can access and change HTML elements, HTML attributes and CSS styles of a website.Using JavaScript to manipulate the DOM, and adding events to the website to create better experience in the browser.",
         links: [{
           title: "Javascript Basic",
-          url: "/projects/javascript",
+          url: "/projects/javascript-basic",
           route: true
-          // url: "https://yingcg.github.io/blog/js-fundamentals.html"
         },
         {
           title: "Minesweeper Game",

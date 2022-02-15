@@ -6,6 +6,7 @@ import Projects from "./Projects";
 import Stories from "./Stories";
 import Footer from "./Footer";
 import Css from "./Css";
+import JsBasic from "./JsBasic";
 
 function App() {
     
@@ -18,6 +19,7 @@ function App() {
             <Route path='/' element={<Home/>} />
             <Route path='/projects' element={<Projects/>} />
             <Route path='/projects/css' element={<Css/>} />
+            <Route path='/projects/javascript-basic' element={<JsBasic/>} />
             <Route path='/stories' element={<Stories/>} />
           </Routes>
         <Footer />
