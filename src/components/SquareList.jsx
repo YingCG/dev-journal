@@ -10,31 +10,33 @@ function SquareList () {
 
   const [colors, setColors] = useState(getColorFromPalette())
 
-    function getColorFromPalette () {
+  function getColorFromPalette() {
 
-      const date = new Date();
-      const currentTime = date.getHours()
+    const date = new Date();
+    const currentTime = date.getHours()
 
 
-      return currentTime < 12 ? morningPallete : (currentTime < 18 ? afternoonPallete : eveningPallete);
+    return currentTime < 12 ? morningPallete : (currentTime < 18 ? afternoonPallete : eveningPallete);
+  }
+
+
+  function changeColourPallete() {
+    const newColors = [];
+
+    for (let i = 0; i < 12; i++) {
+      const newColor = pallete[Math.floor(Math.random() * pallete.length)];
+      newColors.push(newColor)
     }
 
-  
-    function changeColourPallete(){
-      const newColors = [];
+    setColors(newColors)
+  }
 
-      for (let i = 0; i < 12; i++){
-        const newColor = pallete[Math.floor(Math.random() * pallete.length)];
-        newColors.push(newColor)
-      }
+  function changeOneColour(newColor, i) {
+    colors[i] = newColor
+    setColors([...colors])
+  }
 
-      setColors(newColors)
-    }
 
-    function changeOneColour(newColor, i){
-      colors[i] = newColor
-      setColors([...colors])
-    }
 
   return (
     <>
@@ -43,7 +45,7 @@ function SquareList () {
       <div className='square-list'>
 
         {
-          projects.map((info, index) => <Square key={index} colors={colors} index={index} info={info} updateColor={changeOneColour}/>)
+          projects.map((info, index) => <Square key={index} colors={colors} index={index} info={info} updateColor={changeOneColour} />)
         }
        
         <div >
@@ -60,36 +62,14 @@ function SquareList () {
 
       <div>
         <Square colors={colors} index={7} info={{
-        title: "React Form",
-        description: " ",
-        links: []}} updateColor={changeOneColour} >
-        </Square>
-      </div>
-
-      <div>
-        <Square colors={colors} index={8} info={{
-        title: "Client side Routing",
-        description: " ",
-        links: []}} updateColor={changeOneColour} >
-        </Square>
-      </div>
-      <div>
-        <Square colors={colors} index={9} info={{
         title: "API",
         description: " ",
         links: []}} updateColor={changeOneColour} >
         </Square>
       </div>
       <div>
-        <Square colors={colors} index={10} info={{
+        <Square colors={colors} index={8} info={{
         title: "Database",
-        description: " ",
-        links: []}} updateColor={changeOneColour} >
-        </Square>
-      </div>
-      <div>
-        <Square colors={colors} index={11} info={{
-        title: "Full-stack App",
         description: " ",
         links: []}} updateColor={changeOneColour} >
         </Square>
