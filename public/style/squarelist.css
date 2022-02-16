@@ -7,9 +7,9 @@
 }
 
 .square{
-    min-width: 250px;
-    width: 270px;
-    height: 270px;
+    min-width: 280px;
+    width: 300px;
+    height: 300px;
     padding: 20px;
     font-weight: bold;
     justify-content: space-around;

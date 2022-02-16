@@ -60,6 +60,7 @@ function SquareList () {
         </Square>
       </div>
 
+      
       <div>
         <Square colors={colors} index={7} info={{
         title: "API",
@@ -69,12 +70,25 @@ function SquareList () {
       </div>
       <div>
         <Square colors={colors} index={8} info={{
+        title: "React Form",
+        description: " ",
+        links: []}} updateColor={changeOneColour} >
+        </Square>
+      </div>
+      <div>
+        <Square colors={colors} index={9} info={{
         title: "Database",
         description: " ",
         links: []}} updateColor={changeOneColour} >
         </Square>
       </div>
-      
+      <div>
+        <Square colors={colors} index={10} info={{
+        title: "Full Stack App",
+        description: " ",
+        links: []}} updateColor={changeOneColour} >
+        </Square>
+      </div>
       </div>
     </>
   )
