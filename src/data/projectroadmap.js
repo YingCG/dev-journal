@@ -4,11 +4,11 @@ const projects = [
         title: "UX design",
         description: "Considering the Why, What and How of product use. To learn the value of customer journey mapping from broad patterns to individual relevant experiences. Wireframe tool helps us plan out the ideal blueprint of a website.",
         links: [ 
-          {
-          title: "Customer Journey",
-          url: "/projects/uxdesign",
-          route: true
-        },
+        //   {
+        //   title: "Customer Journey",
+        //   url: "/projects/uxdesign",
+        //   route: true
+        // },
         {
           title: "Adobe XD",
           url: "https://xd.adobe.com/view/5bee77bc-6104-48b2-b6ab-e0dbcecbaaf7-0ebd/"
