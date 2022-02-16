@@ -12,7 +12,7 @@ function Square(props) {
 
     return (
     <div className='square' style={{ backgroundColor: props.colors[props.index] }} onClick={changeColor}>
-        {props.info.title}<br />
+        <h3>{props.info.title}</h3>
         <p>{props.info.description}</p><br />
         {
             props.info.links.map((link, index) =>

@@ -1,6 +1,5 @@
 import React from 'react'
 import Ascii from './Ascii'
-import Greeting from './Greeting'
 
 
 function Home () {
@@ -8,10 +7,8 @@ function Home () {
     <>
     <div className='Main-content'>
         <Ascii />
-        <h3> <Greeting /> </h3>
-
+        <h3 style={{color: '#ED0BFF'}}> I design & build web applications with ReactJS. </h3>
         <p>
-        Programming is a universe itself yet to discover... Here, I am tracking my growth as a developer.<br />
         To build useful things, solving problems, and bring in good human experiences. 
         I am approaching problems with empathy, creativity, authenticity and harmonic interface.
         </p>

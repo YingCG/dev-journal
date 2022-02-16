@@ -46,7 +46,7 @@ function SquareList () {
           projects.map((info, index) => <Square key={index} colors={colors} index={index} info={info} updateColor={changeOneColour}/>)
         }
        
-        <div className='square-children' onClick={changeColourPallete} >
+        <div >
         <Square colors={colors} index={6} info={{
         title: "React State",
         description: "State is used with React Component Classes to make them dynamic.",
@@ -58,27 +58,43 @@ function SquareList () {
         </Square>
       </div>
 
-        {/* <div className='square' style={{backgroundColor: colors[7]}}>
-        React Form<br/>
-        </div>
+      <div>
+        <Square colors={colors} index={7} info={{
+        title: "React Form",
+        description: " ",
+        links: []}} updateColor={changeOneColour} >
+        </Square>
+      </div>
 
-        <div className='square' style={{backgroundColor: colors[8]}}>
-        Client side Routing <br/>
-        </div>
-
-        <div className='square' style={{backgroundColor: colors[9]}}>
-        API
-        </div>
-       
-        <div className='square' style={{backgroundColor: colors[10]}}>
-        Database
-        </div>
-        
-        <div className='square' style={{backgroundColor: colors[11]}}>
-        Full-stack App
-        </div> */}
-
-        
+      <div>
+        <Square colors={colors} index={8} info={{
+        title: "Client side Routing",
+        description: " ",
+        links: []}} updateColor={changeOneColour} >
+        </Square>
+      </div>
+      <div>
+        <Square colors={colors} index={9} info={{
+        title: "API",
+        description: " ",
+        links: []}} updateColor={changeOneColour} >
+        </Square>
+      </div>
+      <div>
+        <Square colors={colors} index={10} info={{
+        title: "Database",
+        description: " ",
+        links: []}} updateColor={changeOneColour} >
+        </Square>
+      </div>
+      <div>
+        <Square colors={colors} index={11} info={{
+        title: "Full-stack App",
+        description: " ",
+        links: []}} updateColor={changeOneColour} >
+        </Square>
+      </div>
+      
       </div>
     </>
   )

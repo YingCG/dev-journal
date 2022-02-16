@@ -7,7 +7,7 @@
 
 body{
     position: relative;
-    font-size: 16px;
+    font-size: 18px;
     /* color: #006A71; */
     color: #0061AF;
     /* color: black; */
@@ -175,4 +175,9 @@ display: flex;
     margin-block-start: 0.25rem;
     margin-block-end: 0.25rem;
     font-size: 14px;
+  }
+
+  h3{
+    margin-block-start: 0.2em;
+    margin-block-end: 0.2em;
   }
