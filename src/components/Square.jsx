@@ -11,7 +11,7 @@ function Square(props) {
     }
 
     return (
-    <div className='square' style={{ backgroundColor: props.colors[props.index] }} onClick={changeColor}>
+    <div className='oneSquare' style={{ backgroundColor: props.colors[props.index] }} onClick={changeColor}>
         <h3>{props.info.title}</h3>
         <p>{props.info.description}</p><br />
         {

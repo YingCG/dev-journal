@@ -10,8 +10,8 @@ function About () {
         <h3><Greeting /> </h3>
     
         <p>
-        To build useful things, solving problems, and bring in good experiences with human-centered products. 
         I am approaching problems with empathy, creativity, and authenticity with harmonic interface.
+        To build useful things, solving problems, and bring in good experiences with human-centered products. 
         Coming from a design background, I brings a creative point of view on code.
         The main area of my expertise is front-end development, HTML, CSS, React JS, building small and medium web apps.
         </p>

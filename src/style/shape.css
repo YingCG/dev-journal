@@ -1,0 +1,13 @@
+
+
+.shape {
+        width: 100%;
+        height: auto;
+}
+
+#parallelogram {
+    width: 150px;
+    height: 100px;
+    transform: skew(20deg);
+    background: red;
+  }

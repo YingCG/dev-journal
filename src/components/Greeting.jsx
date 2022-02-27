@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Greeting() {
+function Greeting(props) {
 const date = new Date();
 const currentTime = date.getHours()
 
@@ -17,7 +17,7 @@ if (currentTime < 12){
     customStyle.color = '#ED0BFF'
 } else if (currentTime > 20){
     greeting = 'Good Night'
-    customStyle.color = '#8400ff'
+    customStyle.color = '#916BBF'
 } else {
     greeting = 'Good Evening'
     customStyle.color = '#00ffc3'
@@ -27,7 +27,7 @@ if (currentTime < 12){
     return (
         <>
         <div className='greeting' style={customStyle}>
-        <h3>{greeting}! Welcome to my coding journal.</h3>
+        <h3>{greeting}! {props.greeting}</h3>
        
         </div>
         </>

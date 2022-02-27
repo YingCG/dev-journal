@@ -2,11 +2,17 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./Header";
 import Home from "./Home";
-import Projects from "./Projects";
 import Stories from "./Stories";
 import Footer from "./Footer";
 import Css from "./Css";
 import JsBasic from "./JsBasic";
+import Calculator from "./Calculator";
+import '../style/style.css'
+import '../style/button.css'
+// import About from "./About";
+import Design from "./Design";
+import Projects from "./Projects";
+
 
 function App() {
   
@@ -17,11 +23,13 @@ function App() {
         <Router>
          <Header/>
           <Routes>
-            <Route path='/' element={<Home/>} />
-            <Route path='/projects' element={<Projects/>} />
-            <Route path='/projects/css' element={<Css/>} />
-            <Route path='/projects/javascript-basic' element={<JsBasic/>} />
-            <Route path='/stories' element={<Stories/>} />
+            <Route exact path='/' element={<Home/>} />
+            <Route exact path='/design' element={<Design/>} />
+            <Route exact path='/development' element={<Projects/>} />
+            <Route exact path='/projects/css' element={<Css/>} />
+            <Route exact path='/projects/javascript-basic' element={<JsBasic/>} />
+            <Route exact path='projects/calculator' element={<Calculator/>} />
+            <Route exact path='/stories' element={<Stories/>} />
           </Routes>
         <Footer />
         </Router>

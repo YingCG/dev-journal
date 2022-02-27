@@ -1,4 +1,5 @@
 import React from 'react'
+import Calculator from './Calculator'
 
 function JsBasic () {
 
@@ -50,7 +51,6 @@ function JsBasic () {
           <div className='content-session'>
           <h3>Functions</h3>
           </div>
-          
         </div>
       </>
     )
