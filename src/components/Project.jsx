@@ -19,7 +19,7 @@ function Project(){
           </div>
           <div className="case-study">
             <div className="project">
-            <a href="https://yingcg.github.io/retouchbarn//" target="_blank" rel="noreferrer">
+            <a href="https://yingcg.github.io/retouchbarn/" target="_blank" rel="noreferrer">
             <img className='project-img' src='/images/RetouchBarn.png' alt='website interface'  width="100%" height="auto"/>
               </a>
             <div className="case-title double-line">Retouch Barn</div>
@@ -27,8 +27,8 @@ function Project(){
           </div>
           <div className="case-study">
             <div className="project">
-            <a href="http://photoimagecbd.herokuapp.com" target="_blank" rel="noreferrer">
-            <img className='project-img' src='/images/PhotoImage.png' alt='website interface'  width="100%" height="auto"/>
+            <a href="http://photoimagecbd.herokuapp.com/" target="_blank" rel="noreferrer">
+            <img className='project-img' src='/images/photoImage.png' alt='website interface'  width="100%" height="auto"/>
             </a>
             <div className="case-title double-line">Photo Image</div>
               </div>
