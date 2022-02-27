@@ -42,7 +42,7 @@ function SquareList () {
     <>
               <button className='pallete-btn' onClick={changeColourPallete}><a>Change colour pallete</a></button> 
 
-      <div className='square-list'>
+      <div className='shape-list'>
 
         {
           projects.map((info, index) => <Square key={index} colors={colors} index={index} info={info} updateColor={changeOneColour} />)
