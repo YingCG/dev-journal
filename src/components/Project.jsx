@@ -28,7 +28,7 @@ function Project(){
           <div className="case-study">
             <div className="project">
             <a href="http://photoimagecbd.herokuapp.com/" target="_blank" rel="noreferrer">
-            <img className='project-img' src='/images/photoImage.png' alt='website interface'  width="100%" height="auto"/>
+            <img className='project-img' src='/images/photoimage.png' alt='website interface'  width="100%" height="auto"/>
             </a>
             <div className="case-title double-line">Photo Image</div>
               </div>
