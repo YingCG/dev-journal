@@ -14,10 +14,9 @@ body{
 }
 
 .app-container {
-    position: relative;
-    margin-top: 25px;
-    margin: 25px;
-    height: 100vh;
+    margin-top: 0;
+    margin: 0;
+    width: 100%;
   }
 .main-content {
   width: 100%;
@@ -43,12 +42,19 @@ body{
   height: auto;
 }
 
+.top-nav{
+  display: flex;
+}
+
 .project-img{
   object-fit: calc();
   background-color: transparent;
   border: none;
 }
 
+h1{
+  font-family: 'Tajawal', sans-serif;
+}
   
 h6{
     margin-block-start: 0.25rem;
@@ -82,6 +88,7 @@ h3{
 }
 
 .double-line{ 
+  width: 100%;
   display: flex;
   text-decoration: underline overline;
   text-underline-position:under;
@@ -114,7 +121,7 @@ h3{
 }
 
 .projects{
-  /* background-color: #92A9BD; */
+  width: 100%;
   padding: 3rem;
   color: #151D3B;
 }
@@ -124,4 +131,126 @@ h3{
 }
 .case-title{
   text-align: center;
+}
+
+
+@media only screen and (max-width: 767px) {
+  .logo{
+    width: 65px;
+    height: auto;
+  }
+  .header{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier Prime', monospace;
+    margin:2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .header-left{
+    flex: 1;
+    display: flex;
+  }
+  .header-right{
+    flex: 2;
+    display: flex;
+    align-items: flex-end;
+  }
+ .header-content h1{
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 300;
+      font-size: 30px;
+      margin-block-start: 0.5em;
+      margin-block-end: -0.5em;
+      text-transform: uppercase;
+  }
+  .case-study-container{
+    display: block;
+    color: #151D3B;
+  }
+  
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .logo{
+    width: 70px;
+    height: auto;
+  }
+
+  .header{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Courier Prime', monospace;
+    margin:2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .header-left{
+    flex: 2;
+    display: flex;
+  }
+  .header-right{
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+  }
+
+ .header-content h1{
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 300;
+      font-size: 26px;
+      margin-block-start: 0.5em;
+      margin-block-end: -0.5em;
+      text-transform: uppercase;
+  }
+
+  .projects{
+    width: 100%;
+    display: flex;
+    padding: 3rem;
+    color: #151D3B;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  .logo{
+    width: 80px;
+    height: auto;
+  }
+
+  .header{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Courier Prime', monospace;
+    margin:2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .header-left{
+    display: flex;
+  }
+  .header-right{
+    display: flex;
+    align-items: flex-end;
+  }
+ .header-content h1{
+   font-family: 'Tajawal', sans-serif;
+   font-weight: 300;
+     font-size: 45px;
+     margin-block-start: 0.5em;
+     margin-block-end: -0.5em;
+     text-transform: uppercase;
+ }
+ 
+ .header-content h4{
+   font-size: 17px;
+   font-weight: 300;
+ }
+
+ .projects{
+  width: 100%;
+  display: flex;
+  padding: 3rem;
+  color: #151D3B;
+}
 }

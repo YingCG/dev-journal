@@ -1,5 +1,6 @@
 import React from 'react'
 import '../style/hello.css'
+import '../style/style.css'
 import Ascii from './Ascii'
 import Greeting from './Greeting'
 import { Link } from 'react-router-dom'
@@ -41,7 +42,6 @@ function Home() {
                       <button className='nav-btn' style={{ backgroundColor: '#151D3B' }}>Contact Me</button>
                     </div>
                     
-        </div>
         <div className="welcome-hello">
             <Ascii />
             <h3><Greeting greeting={' I design & build web applications with ReactJS.'} /> </h3>
@@ -54,8 +54,8 @@ function Home() {
                 <a href="http://patorjk.com/software/taag/#p=display&amp;f=Alpha&amp;t=hello" target="_blank" rel="ASCII art generator noreferrer" style={{fontSize: '13px', backgroundColor: '#ED0BFF', marginLeft: '0.5rem', paddingRight: '0.5rem', paddingLeft: '0.5rem', fontWeight: 'bold', borderRadius: '25px'}}> ASCII Text Generator </a>
             </p>
           </div>
+        </div>
         <Project />
-
       </div>
     </>
   )
