@@ -47,7 +47,7 @@ body{
       color: #151D3B;
       width: fit-content
     }
-    
+
     .welcome-hello{
         width: 100%;
         height: auto;
@@ -61,11 +61,16 @@ body{
       padding: 2rem;
       font-size: 15px;
     }
-
+    
     .two-column{
       display: flex;
       flex-wrap: wrap;
+      flex-direction: column;
+      width: 100%;
+      color: #151D3B;
+      width: fit-content
     }
+
     .square-container{
       display: flex;
       flex-direction: row;
@@ -73,6 +78,7 @@ body{
     }
     .big-square{
       padding: 3rem;
+      font-size: 14px;
     }
     .project-right{
       padding: 3rem;
@@ -129,7 +135,7 @@ body{
     }
     
     .welcome-hello{
-      max-width: 100%;
+      width: 100%;
       flex: 2;
       height: auto;
       padding: 20px;
@@ -140,29 +146,31 @@ body{
     
     .two-column{
       display: flex;
-      flex-wrap: wrap;
+      flex-direction: row;
+      color: #151D3B;
+      max-width: 100%;
     }
-    .square-container{
-      display: flex;
-      flex-wrap: wrap;
-    }
+
     .big-square{
       flex: 1;
       padding: 3rem;
     }
+
     .project-right{
-      flex: 3;
+      flex: 2;
       padding: 3rem;
     }
 
-    h1.big-text {
-        font-size: 4rem;
+    .big-square h1{
+        font-size: 21px;
     }
+
 
       .square-container{
         display: grid;
-        grid-template-columns: repeat(3, auto);
+        grid-template-columns: repeat(2, auto);
         flex-wrap: wrap;
+        flex: 2;
       }
   }
   
@@ -212,20 +220,22 @@ body{
     flex: 2;
     padding: 2rem;
     background-color: #151D3B;
+    width: 100%;
+    align-items: center;
   }
-  
+  .welcome-hello pre{
+font-size: 13px;
+  }
   .two-column{
     display: flex;
-    flex-wrap: wrap;
-  }
-  .square-container{
-    display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    color: #151D3B;
   }
   .big-square{
-    flex: 1;
+    flex: 0.85;
     padding: 3rem;
   }
+
   .project-right{
     flex: 3;
     padding: 3rem;
@@ -233,11 +243,15 @@ body{
 
   h1.big-text {
     font-size: 5rem;
+    margin-block-start: 1rem;
+    margin-block-end: -1rem;
 }
 
 .square-container{
     display: grid;
     grid-template-columns: repeat(4, auto);
     flex-wrap: wrap;
+    flex: 3.15;
+
   }
   }

@@ -41,19 +41,19 @@ function SquareList() {
   return (
     <>
       <div className='two-column'>
-      <div className="big-square" style={{ backgroundColor: ' #151D3B', color: '#f7f5f2' }}>
-           <h1 style={{ color: '#f7f5f2',  fontSize: '3rem'}}> Projects Roadmap </h1>
-           <Greeting greeting={'Welcome to my coding journal. '} style={{color: '#3D087B'}} /> 
-            <p> Programming is a universe itself yet to discover... Here, I am tracking my growth as a developer.
-              I am constantly learning and exploring the possibilities to approach problems.
+        <div className="big-square" style={{ backgroundColor: ' #151D3B', color: '#f7f5f2' }}>
+            <h1 style={{ color: '#f7f5f2',  fontSize: '2.5rem'}}> Projects Roadmap </h1>
+            <Greeting greeting={'Welcome to my coding journal. '} style={{color: '#3D087B'}} /> 
+              <p> Programming is a universe itself yet to discover... Here, I am tracking my growth as a developer.
+                I am constantly learning and exploring the possibilities to approach problems.
 
-              As a start, I will first using this <strong>Projects Roadmap</strong> to create and show the projects I have developed...
-              Eventually I will tell you the full stories. Write down how and why I solved coding problems, and reveal hurdles in my workflow.
-              <br/>
-              <br/>
-              <button className='nav-btn' onClick={changeColourPallete}><a>Change colour pallete</a></button>
-            </p>
-        </div>
+                As a start, I will first using this <strong>Projects Roadmap</strong> to create and show the projects I have developed...
+                Eventually I will tell you the full stories. Write down how and why I solved coding problems, and reveal hurdles in my workflow.
+                <br/>
+                <br/>
+                <button className='nav-btn' onClick={changeColourPallete}><a>Change colour pallete</a></button>
+              </p>
+          </div>
           <div className='square-container'>
             {
               projects.map((info, index) => <Square key={index} colors={colors} index={index} info={info} updateColor={changeOneColour} />)
