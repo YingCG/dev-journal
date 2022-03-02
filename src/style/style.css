@@ -143,7 +143,7 @@ h3{
     display: flex;
     flex-direction: column;
     font-family: 'Courier Prime', monospace;
-    margin:2rem;
+    margin:1rem;
     margin-bottom: 1rem;
   }
   
@@ -181,7 +181,7 @@ h3{
     display: flex;
     justify-content: space-between;
     font-family: 'Courier Prime', monospace;
-    margin:2rem;
+    margin:1.5rem;
     margin-bottom: 1rem;
   }
   

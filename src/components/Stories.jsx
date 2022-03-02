@@ -1,6 +1,8 @@
 import React from "react";
 import storiesData from '../data/humanskills'
 import Story from "./Story";
+import '../style/squarelist.css'
+
 
 function Stories() {
 

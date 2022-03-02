@@ -1,23 +1,23 @@
-const humanskills = [
+const stories = [
     {
         id: 1, 
         title: "Value & Identity",
         description: "Who am I as a person? I would like to be a developer, to provide solutions where meets functionality and aesthetic with technology.",
         paragraph:'',
-        checklist: [
-            { id: 1, content: "Long term goal" },
-            { id: 2, content: "Short term goal"},
-            { id: 3, content: "My strengths and limitations" },
-            { id: 4, content: "Non-technical - human skills I like to see developed" },
-            { id: 5, content: "Have I stay focus, by putting ideas in action" },
-            { id: 5, content: "How to manage myself to work productively and safely" }
-        ],
         links: [
-            {
-              title: "Attitudes, values, and friendships",
-              url: "/projects/value",
-              route: true,
-            }],
+          {
+            title: "Attitudes, values, and friendships",
+            url: "/projects/value",
+            route: true,
+            checklist: [
+                { id: 1, content: "Long term goal" },
+                { id: 2, content: "Short term goal"},
+                { id: 3, content: "My strengths and limitations" },
+                { id: 4, content: "Non-technical - human skills I like to see developed" },
+                { id: 5, content: "Have I stay focus, by putting ideas in action" },
+                { id: 5, content: "How to manage myself to work productively and safely" }
+            ]
+          }],
     },
     {
         id: 2, 
@@ -105,4 +105,4 @@ const humanskills = [
     }
 ]
 
-export default humanskills
+export default stories

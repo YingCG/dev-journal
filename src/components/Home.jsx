@@ -34,10 +34,10 @@ function Home() {
                         <p className='link-text'>A project road-map to track my growth as a developer.</p>
                       </Link>
 
-                      <Link exact to='/design' className="double-line">
+                      <a href='https://artyingchiu.wordpress.com/' className="double-line">
                         <div className='arrow-btn'></div>
                         <p className='link-text'>Design project I get involve.</p>
-                      </Link>
+                      </a>
                       <br />
                       <button className='nav-btn' style={{ backgroundColor: '#151D3B' }}>Contact Me</button>
                     </div>

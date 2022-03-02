@@ -3,6 +3,7 @@ import Square from './Square';
 import projects from '../data/projectroadmap';
 import '../style/style.css'
 import '../style/hello.css'
+import '../style/squarelist.css'
 import Greeting from './Greeting';
 
 
