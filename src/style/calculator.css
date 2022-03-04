@@ -9,6 +9,12 @@
     padding: 20px;
 }
 
+.todo-list{
+      margin: 20px;
+    /* width: fit-content; */
+    background: linear-gradient(to right, #4FD3C4, #FF8AAE);
+    padding: 20px;
+}
 .calculator-grid{
     display: grid;
     margin-top: 2rem;

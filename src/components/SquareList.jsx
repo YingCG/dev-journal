@@ -56,6 +56,7 @@ function SquareList() {
               </p>
           </div>
           <div className='square-container'>
+          {/* <div className="square-list"> */}
             {
               projects.map((info, index) => <Square key={index} colors={colors} index={index} info={info} updateColor={changeOneColour} />)
             }
@@ -75,9 +76,9 @@ function SquareList() {
 
             <div>
               <Square colors={colors} index={6} info={{
-                title: "useReducer()",
+                title: "React Form",
                 description: " ",
-                links: [{ title: "Calculator", url: "/projects/calculator", route: true }]
+                links: [{ title: "To-do List", url: "/projects/todolist", route: true }]
               }} updateColor={changeOneColour} >
               </Square>
             </div>

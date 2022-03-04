@@ -45,7 +45,8 @@ body{
       flex-direction: column-reverse;
       width: 100%;
       color: #151D3B;
-      width: fit-content
+      width: fit-content;
+      block-size: fit-content;
     }
 
     .welcome-hello{
@@ -126,7 +127,8 @@ body{
       display: flex;
       flex-direction: row;
       color: #151D3B;
-      max-width: 100%;
+      width: fit-content;
+      block-size: fit-content;
     }
     
     .welcome-text{
@@ -209,6 +211,8 @@ body{
     display: flex;
     flex-direction: row;
     color: #151D3B;
+    width: fit-content;
+    block-size: fit-content;
   }
   
   .welcome-text{
@@ -223,9 +227,9 @@ body{
     width: 100%;
     align-items: center;
   }
-  .welcome-hello pre{
+  /* .welcome-hello pre{
 font-size: 13px;
-  }
+  } */
   .two-column{
     display: flex;
     flex-direction: row;

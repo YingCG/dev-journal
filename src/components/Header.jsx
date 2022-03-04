@@ -7,7 +7,7 @@ function Header() {
       <div className="header">
               <div className="header-left">
 
-        <Link to='/'><img className="logo" src="YingCG.svg" alt="logo"/></Link>
+        <Link to='/'><img className="logo" src="/YingCG.svg" alt="logo"/></Link>
           <div className="header-content">
           
             <h1>Ying Web Design &amp; Develop</h1>
