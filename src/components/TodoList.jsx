@@ -29,6 +29,7 @@ function TodoList () {
 
 
     return (
+        <div className='tools-container'>
         <div className="todo-list">
             <h1>To-Do List</h1>
             <div>
@@ -45,6 +46,7 @@ function TodoList () {
                     )}
                 </ul>
             </div>
+        </div>
         </div>
     )
 }

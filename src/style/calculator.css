@@ -2,18 +2,23 @@
     box-sizing: border-box;
 }
 
+.tools-container{
+    display: flex;
+    overflow-wrap: wrap;
+}
 .calculator-container{
     margin: 20px;
-    /* width: fit-content; */
+    width: fit-content;
     background: linear-gradient(to right, #00AAff, #00FF6c);
     padding: 20px;
 }
 
 .todo-list{
-      margin: 20px;
-    /* width: fit-content; */
+    margin: 20px;
+    width: fit-content;
     background: linear-gradient(to right, #4FD3C4, #FF8AAE);
     padding: 20px;
+    color: white;
 }
 .calculator-grid{
     display: grid;

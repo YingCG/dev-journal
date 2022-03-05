@@ -6,7 +6,7 @@ import Stories from "./Stories";
 import Footer from "./Footer";
 import Css from "./Css";
 import JsBasic from "./JsBasic";
-import Calculator from "./Calculator";
+import Tools from "./Tools";
 import '../style/style.css'
 import '../style/button.css'
 // import About from "./About";
@@ -30,7 +30,7 @@ function App() {
             <Route exact path='/development' element={<Projects/>} />
             <Route exact path='/projects/css' element={<Css/>} />
             <Route exact path='/projects/javascript-basic' element={<JsBasic/>} />
-            <Route exact path='/projects/calculator' element={<Calculator/>} />
+            <Route exact path='/tools' element={<Tools/>} />
             <Route exact path='/projects/create-shape' element={<ShapeList/>} />
             <Route exact path='/projects/todolist' element={<TodoList/>} />
             <Route exact path='/stories' element={<Stories/>} />

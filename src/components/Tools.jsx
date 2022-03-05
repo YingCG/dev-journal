@@ -1,13 +1,13 @@
 import React from 'react'
 import Calculator from './Calculator'
-import ShapeList from './ShapeList'
+import TodoList from './TodoList'
 
 function ReactForm(){
     return(
         <>
         <div className="Main-content">
             <Calculator/>
-            <ShapeList />
+            <TodoList />
         </div>
         </>
     )
