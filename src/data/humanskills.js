@@ -19,21 +19,21 @@ const humanskills = [
               route: true,
             }],
     },
-    {
-        id: 2, 
-        title: "Trust myself own ability to learn",
-        description: "Practing make perfect, by willingness to learn and practice we can get smarter.",
-        checklist: [
-            { id: 1, content: "Don't Rush to the idea of I CAN'T" },
-            { id: 2, content: "Don't Rush to the idea of I CAN'T" },
-            { id: 3, content: "Add a 'yet' word behind of every 'I can't do it'" },
-            { id: 4, content: "Ask myself: What can I do to improve next? " },
-            { id: 5, content: "Can I make this experience more fun? " }
-        ]
-    },
+    // {
+    //     id: 2, 
+    //     title: "Trust myself own ability to learn",
+    //     description: "Practing make perfect, by willingness to learn and practice we can get smarter.",
+    //     checklist: [
+    //         { id: 1, content: "Don't Rush to the idea of I CAN'T" },
+    //         { id: 2, content: "Don't Rush to the idea of I CAN'T" },
+    //         { id: 3, content: "Add a 'yet' word behind of every 'I can't do it'" },
+    //         { id: 4, content: "Ask myself: What can I do to improve next? " },
+    //         { id: 5, content: "Can I make this experience more fun? " }
+    //     ]
+    // },
     {
         id: 3, 
-        title: "The Benifit of Nueroplasticity",
+        title: "The Benefit of Nueroplasticity",
         description: "Nueroplasticity meaning brain's ability to change and adapt as a result of experiences. It can amend the structure and function of the barin. ",
         checklist: [
             { id: 1, content: " The ability to learn new things." },
@@ -45,7 +45,7 @@ const humanskills = [
     {
         id: 4, 
         title: 'The power of YET',
-        description: "Every expert was once a beginner. To feed my brain with the power of YET help me to discover my own learning pattern when I experience confusion, frustration, lack of context. Practing make perfect, by willingness to learn and practice, take a step back and look at the same challenge from an alternative perspective. Retry with fresh pice of mind, everyday I learn a little more",
+        description: "Every expert was once a beginner. To feed my brain with the power of YET help me to discover my own learning pattern when I experience confusion, frustration, lack of context. ",
         checklist: [
             { id: 1, content: "I can't do this ... YET" },
             { id: 2, content: "It doesn't work ... YET" },
@@ -57,8 +57,8 @@ const humanskills = [
     },
     {
         id: 5, 
-        title: 'Weekly Practice to improve my brain plasticity',
-        description: "Every expert was once a beginner. To feed my brain with the power of YET help me to discover my own learning pattern when I experience confusion, frustration, lack of context. Practing make perfect, by willingness to learn and practice, take a step back and look at the same challenge from an alternative perspective. Retry with fresh pice of mind, everyday I learn a little more",
+        title: 'Improve my brain plasticity',
+        description: " Practing make perfect, by willingness to learn and practice, take a step back and look at the same challenge from an alternative perspective. Retry with fresh pice of mind, everyday I learn a little more",
         checklist: [
             { id: 1, content: "Enriching my environment" },
             { id: 2, content: "Eat well" },
@@ -81,28 +81,28 @@ const humanskills = [
             { id: 5, content: "Enjoy & Reflect" }
         ]    
     },
-    {
-        id: 7,
-        title: 'Conflict Resolution Checklist',
-        description: "Quite often our emotions have affect our thinking and behavior. Emotional intelligence help to guide us to address, manage, adjust and adapt to our own goal, parallel with the enviorment needs.",
-        checklist: [
-            { 
-              id: 1, 
-              content: "How Am I feeling?",
-              details: ""
-            } ,
-            { 
-                id: 2, 
-                content: "What options do I have?",
-                details: "Get creative, get that potential options."
-            } ,
-            { 
-                id: 3, 
-                content: "What is truly important to me?",
-                details: "Who you want to be as a person, that both myself and the people surrounding both value to this choice."
-            }
-        ]    
-    }
+    // {
+    //     id: 7,
+    //     title: 'Conflict Resolution Checklist',
+    //     description: "Quite often our emotions have affect our thinking and behavior. Emotional intelligence help to guide us to address, manage, adjust and adapt to our own goal, parallel with the enviorment needs.",
+    //     checklist: [
+    //         { 
+    //           id: 1, 
+    //           content: "How Am I feeling?",
+    //           details: ""
+    //         } ,
+    //         { 
+    //             id: 2, 
+    //             content: "What options do I have?",
+    //             details: "Get creative, get that potential options."
+    //         } ,
+    //         { 
+    //             id: 3, 
+    //             content: "What is truly important to me?",
+    //             details: "Who you want to be as a person, that both myself and the people surrounding both value to this choice."
+    //         }
+    //     ]    
+    // }
 ]
 
 export default humanskills

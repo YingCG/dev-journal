@@ -1,4 +1,5 @@
 import React from 'react'
+import Typewriter from './Typewriter';
 
 function Greeting(props) {
 const date = new Date();
@@ -17,17 +18,17 @@ if (currentTime < 12){
     customStyle.color = '#ED0BFF'
 } else if (currentTime > 20){
     greeting = 'Good Night'
-    customStyle.color = '#916BBF'
+    customStyle.color = '#086E7D'
 } else {
     greeting = 'Good Evening'
-    customStyle.color = '#00ffc3'
+    customStyle.color = '#5902EC'
 }
 
 
     return (
         <>
         <div className='greeting' style={customStyle}>
-        <h3>{greeting}! {props.greeting}</h3>
+        <h4><Typewriter message={greeting + "! " + props.greeting}/></h4>
        
         </div>
         </>

@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from 'react-router-dom'
+import Calculator from "./Calculator";
+import TodoList from "./TodoList";
 
 
 function Project(){
@@ -31,6 +34,20 @@ function Project(){
             <img className='project-img' src='/images/photoimagecbd.jpg' alt='website interface'  width="100%" height="auto"/>
             </a>
             <div className="case-title double-line">Photo Image</div>
+              </div>
+          </div>
+          <div className="case-study">
+            <div className="project" width="100%" height="auto">
+            <Link className='project-img' exact to='/projects/calculator'><Calculator/>
+            </Link>
+            <div className="case-title double-line">Calculator</div>
+              </div>
+          </div>
+          <div className="case-study">
+            <div className="project" width="100%" height="auto">
+            <Link className='project-img' exact to='/projects/todolist'><TodoList/>
+            </Link>
+            <div className="case-title double-line">To-do List</div>
               </div>
           </div>
         </div>

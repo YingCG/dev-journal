@@ -12,6 +12,25 @@ body{
   font-family: 'Tajawal', sans-serif;
 }
 
+.stories{
+  display: flex ;
+  flex-wrap: wrap;
+}
+
+.stories-text{
+  padding: 3rem;
+  flex: 1;
+}
+
+.square-list{
+  flex: 2;
+  flex-wrap: wrap;
+}
+
+.typewriter{
+  font-size: 17px;
+  color: white;
+}
 
 @media only screen and (max-width: 767px) {
   .logo{
@@ -22,7 +41,7 @@ body{
     font-family: "Courier New", Courier, monospace;
       white-space: pre;
       display: none;
-      color: #ED0BFF;
+      color: white;
       max-width: 100%;
       height: auto;
     }
@@ -36,7 +55,8 @@ body{
       white-space: pre;
       font-family: "Courier New", Courier, monospace;
       text-align: center;
-      color: #ED0BFF;
+      color: white;
+      /* color: #ED0BFF; */
       max-width: 100%;
     }
 
@@ -55,7 +75,8 @@ body{
         font-size: 12px;
         max-width: 100%;
         padding: 15px;
-        background-color: #151D3B;
+        background: linear-gradient(to bottom, #3A6351, #A06EE1, thistle );
+        /* background: linear-gradient(to left, #151D3B, #084594); */
     }
     
     .welcome-text{
@@ -80,6 +101,9 @@ body{
     .big-square{
       padding: 3rem;
       font-size: 14px;
+      background:  #f7f5f2;
+      color: #151D3B;
+      font-weight: 300;
     }
     .project-right{
       padding: 3rem;
@@ -105,7 +129,7 @@ body{
       white-space: pre;
       text-align: center;
       object-fit: contain;
-      color: #ED0BFF;
+      color: white;
       max-width: 100%;
       height: auto;
       font-size: 10px;
@@ -143,8 +167,8 @@ body{
       padding: 20px;
       object-fit: contain;
       font-size: 14px;
-      background-color: #151D3B;
-  }
+      background: linear-gradient(to bottom, #3A6351, #A06EE1, thistle );
+    }
     
     .two-column{
       display: flex;
@@ -156,6 +180,12 @@ body{
     .big-square{
       flex: 1;
       padding: 3rem;
+      /* background: linear-gradient(to bottom, #0061AF,  #FFBCD1);
+      color: white; */
+      background:  #f7f5f2;
+      color: #151D3B;
+      font-size: 15px;
+      font-weight: 300;
     }
 
     .project-right{
@@ -182,7 +212,7 @@ body{
       white-space: pre;
       overflow: auto;
       text-align: center;
-      color: #ED0BFF;
+      color: white;
       max-width: 100%;
       height: auto;
     }
@@ -223,7 +253,8 @@ body{
   .welcome-hello{
     flex: 2;
     padding: 2rem;
-    background-color: #151D3B;
+    background: linear-gradient(to bottom, #3A6351,  #A06EE1, thistle );
+    /* background: linear-gradient(to bottom, #3A6351, teal, #A06EE1,  thistle ); */
     width: 100%;
     align-items: center;
   }
@@ -237,8 +268,11 @@ font-size: 13px;
   }
   .big-square{
     flex: 1;
-    padding: 3rem;
-
+    padding: 4rem;
+    background:  #f7f5f2;
+    color: #151D3B;
+    font-size: 17px;
+    font-weight: 300;
   }
 
   .project-right{

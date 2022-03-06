@@ -6,7 +6,7 @@ import Story from './Story'
 function Details (props) {
     return (
         <>
-        <div className='Detials'>
+        <div className='page-container'>
             {storiesData.map (details => {
               return (
               <Story details={props.description} />

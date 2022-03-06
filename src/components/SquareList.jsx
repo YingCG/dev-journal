@@ -42,8 +42,8 @@ function SquareList() {
   return (
     <>
       <div className='two-column'>
-        <div className="big-square" style={{ backgroundColor: ' #151D3B', color: '#f7f5f2' }}>
-            <h1 style={{ color: '#f7f5f2',  fontSize: '2.5rem'}}> Projects Roadmap </h1>
+        <div className="big-square" >
+            <h1 style={{ fontSize: '2.5rem'}}> Projects Roadmap </h1>
             <Greeting greeting={'Welcome to my coding journal. '} style={{color: '#3D087B'}} /> 
               <p> Programming is a universe itself yet to discover... Here, I am tracking my growth as a developer.
                 I am constantly learning and exploring the possibilities to approach problems.

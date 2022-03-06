@@ -94,7 +94,7 @@ h3{
   text-underline-position:under;
   flex-direction: row;
   cursor: pointer;
-  align-items: center;
+  /* align-items: center; */
   color: #151D3B;
 }
 

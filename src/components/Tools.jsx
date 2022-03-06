@@ -5,7 +5,7 @@ import TodoList from './TodoList'
 function ReactForm(){
     return(
         <>
-        <div className="Main-content">
+        <div className="tools-container">
             <Calculator/>
             <TodoList />
         </div>

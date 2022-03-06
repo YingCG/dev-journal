@@ -108,4 +108,13 @@ justify-content: flex-end;
     cursor: pointer;
 }
 
-
+.sml-btn{
+    font-size: 13px; 
+    background-color: white;
+    /* background-color: #ED0BFF; */
+    padding-right: 0.5rem;
+    padding-left: 0.5rem; 
+    margin-right:0.5rem;
+    font-weight: bold; 
+    border-radius: 25px;
+}

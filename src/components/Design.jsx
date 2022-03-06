@@ -3,7 +3,7 @@ import React from 'react'
 function Design() {
     return (
         <>
-            <div className='main-container'>
+            <div className='page-container'>
                 <div className='design'>
                 <div className='card'>
                     <img className='session-image' src='/images/photo-1487956382158-bb926046304a.jpg' alt='walkingimage' />

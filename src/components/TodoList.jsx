@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import TodoItem from "./TodoItem";
+import '../style/tools.css'
 
 function TodoList () {
     const [inputText, setInputText] = useState('')
@@ -29,15 +30,14 @@ function TodoList () {
 
 
     return (
-        <div className='tools-container'>
-        <div className="todo-list">
+        <div className="todo">
             <h1>To-Do List</h1>
-            <div>
+            <div className="add-todo">
                 <input name='todo' onChange={handleChange} type='text' placeholder="What's next?" 
                 value={inputText}/>
             <button onClick={addItem}> <span>Add</span></button>
             </div>
-            <div className='todo'>
+            <div className='todo-list'>
                 <ul>
                     {tasks.map((todoItem,index) => <TodoItem 
                         key={index} id={index} text={todoItem}
@@ -46,7 +46,6 @@ function TodoList () {
                     )}
                 </ul>
             </div>
-        </div>
         </div>
     )
 }

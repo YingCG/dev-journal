@@ -13,7 +13,8 @@ import '../style/button.css'
 import Design from "./Design";
 import Projects from "./Projects";
 import TodoList from "./TodoList";
-import ShapeList from "./ShapeList";
+import ShapeForm from "./ShapeForm";
+import Calculator from "./Calculator";
 
 
 function App() {
@@ -30,8 +31,9 @@ function App() {
             <Route exact path='/development' element={<Projects/>} />
             <Route exact path='/projects/css' element={<Css/>} />
             <Route exact path='/projects/javascript-basic' element={<JsBasic/>} />
-            <Route exact path='/tools' element={<Tools/>} />
-            <Route exact path='/projects/create-shape' element={<ShapeList/>} />
+            <Route exact path='/projects/tools' element={<Tools/>} />
+            <Route exact path='/projects/calculator' element={<Calculator/>} />
+            <Route exact path='/projects/createshape' element={<ShapeForm/>} />
             <Route exact path='/projects/todolist' element={<TodoList/>} />
             <Route exact path='/stories' element={<Stories/>} />
           </Routes>

@@ -2,7 +2,7 @@
 import React, { useReducer } from "react";
 import DigitButton from "./DigitButton";
 import OperationButton from "./OperationButton";
-import '../style/calculator.css'
+import '../style/tools.css'
 
 export const ACTIONS = {
     ADD_DIGIT: "add-digit",
@@ -120,10 +120,10 @@ function Calculator({height}) {
     )
 
     return (
-        <div className='tools-container'>
-
         <div className="calculator-container" height={height}>
+            <h1>Calculator</h1>
             <div className="calculator-grid">
+
                 <div className="output">
                     <div className="previous-operand">{previousOperand} {operation}</div>
                     <div className="current-operand">{currentOperand}</div>
@@ -151,7 +151,6 @@ function Calculator({height}) {
                 <DigitButton digit={"0"} dispatch={dispatch} />
                 <button className="span-two" onClick={() => dispatch({ type: ACTIONS.EVALUATE })}>=</button>
             </div>
-        </div>
         </div>
     )
 }
