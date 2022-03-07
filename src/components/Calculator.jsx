@@ -121,9 +121,7 @@ function Calculator({height}) {
 
     return (
         <div className="calculator-container" height={height}>
-            <h1>Calculator</h1>
             <div className="calculator-grid">
-
                 <div className="output">
                     <div className="previous-operand">{previousOperand} {operation}</div>
                     <div className="current-operand">{currentOperand}</div>
@@ -150,7 +148,7 @@ function Calculator({height}) {
                 <DigitButton digit={"."} dispatch={dispatch} />
                 <DigitButton digit={"0"} dispatch={dispatch} />
                 <button className="span-two" onClick={() => dispatch({ type: ACTIONS.EVALUATE })}>=</button>
-            </div>
+                </div>
         </div>
     )
 }

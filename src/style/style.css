@@ -7,7 +7,6 @@
   }
 
 body{
-    position: relative;
     font-size: 18px;
     color: #0061AF;
     font-family: 'Tajawal', sans-serif;
@@ -18,13 +17,14 @@ body{
     margin: 0;
     width: 100%;
   }
+
 .main-content {
   width: 100%;
   height: auto;
 }
 
 .page-container{
-  position: relative;
+  width: 100%;
   height: 100vh;
 }
 
@@ -47,9 +47,10 @@ body{
 }
 
 .project-img{
-  object-fit: calc();
   background-color: transparent;
   border: none;
+  width: 100%;
+  height: auto;
 }
 
 h1{
@@ -71,19 +72,16 @@ h3{
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
     grid-gap: 2rem;
+    overflow: auto;
 }
 
-.case-study {
-  white-space: nowrap;
-
-}
 
 .case-title {
   font-size: large;
   font-weight: bold;
 }
 
-.project {
+.wrapper {
   width: 100%;
 }
 
@@ -166,6 +164,7 @@ h3{
   .case-study-container{
     display: block;
     color: #151D3B;
+    overflow: auto;
   }
   
 }
@@ -251,5 +250,6 @@ h3{
   display: flex;
   padding: 3rem;
   color: #151D3B;
+  overflow: auto;
 }
 }

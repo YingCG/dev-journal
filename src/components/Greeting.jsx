@@ -12,10 +12,10 @@ const customStyle = {
 
 if (currentTime < 12){
     greeting = 'Good Morning'
-    customStyle.color = '#ffb300'
+    customStyle.color = '#FDFFA9'
 } else if (currentTime < 18) {
     greeting = 'Good Afternoon'
-    customStyle.color = '#ED0BFF'
+    customStyle.color = '#FFD365'
 } else if (currentTime > 20){
     greeting = 'Good Night'
     customStyle.color = '#086E7D'

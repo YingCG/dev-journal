@@ -8,7 +8,7 @@ function Project(){
 
 
     return(
-        <div className="projects">
+        <div className="wrapper">
             <h1 className="double-line">Some project I created.</h1>
         <div className="case-study-container">
           <div className="case-study">
@@ -51,8 +51,7 @@ function Project(){
               </div>
           </div>
         </div>
-        </div>
-
+</div>
     )
 }
 

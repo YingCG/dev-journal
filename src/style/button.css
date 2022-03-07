@@ -75,8 +75,9 @@ justify-content: flex-end;
     padding: 0.5rem 0.5rem;
     margin-block-start: -1em;
     margin-block-end: 0em;
-    background-color: white;
-    color: #ED0BFF;
+    background-color: #B762C1;
+    color: #151D3B;
+    ;
 }
 
 .pallete-btn{
@@ -104,8 +105,9 @@ justify-content: flex-end;
 }
 
 .pallete:hover{
-    background-color: black;
+    background-color: #151D3B;
     cursor: pointer;
+    color: #ED0BFF;
 }
 
 .sml-btn{
