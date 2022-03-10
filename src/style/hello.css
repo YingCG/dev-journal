@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@0;1&family=Cutive&family=Cutive+Mono&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300&family=Roboto+Slab:wght@300;400&display=swap');
 
-
-
 .stories{
   display: flex ;
   flex-wrap: wrap;
@@ -17,16 +15,11 @@
   flex-wrap: wrap;
 }
 
-.typewriter{
-  font-size: 17px;
-  color: white;
-}
+
+
 
 @media only screen and (max-width: 767px) {
-  .logo{
-    width: 65px;
-    height: auto;
-  }
+
     .monospaced {
     font-family: "Courier New", Courier, monospace;
       white-space: pre;
@@ -41,7 +34,6 @@
     }
     
     .hello {
-      font-size: 18px;
       white-space: pre;
       font-family: "Courier New", Courier, monospace;
       text-align: center;
@@ -50,21 +42,29 @@
       max-width: 100%;
     }
 
+    .hello:after {
+      content: " ";
+    }
+    
     .welcome{
       display: flex;
       flex-direction: column-reverse;
       width: 100%;
       color: #151D3B;
-      width: fit-content;
       block-size: fit-content;
+    }
+
+    .typewriter{
+      font-size: 15px;
+      color: white;
     }
 
     .welcome-hello{
         width: 100%;
         height: auto;
-        font-size: 12px;
+        font-size: 3vw;
         max-width: 100%;
-        padding: 15px;
+        padding: 4vw;
         background: linear-gradient(to bottom, #54BAB9, #98BAE7, #BAABDA, #A06EE1 );
         /* background: linear-gradient(to left, #151D3B, #084594); */
     }
@@ -73,7 +73,12 @@
       padding: 2rem;
       font-size: 15px;
     }
-    
+
+    code{
+      width: 100%;
+      overflow: hidden;
+    }  
+
     .two-column{
       display: flex;
       flex-wrap: wrap;

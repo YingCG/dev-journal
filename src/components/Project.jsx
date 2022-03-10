@@ -24,7 +24,7 @@ function Project(){
           <div className="case-study">
             <div className="project">
             <a href="https://yingcg.github.io/retouchbarn/" target="_blank" rel="noreferrer">
-            <img className='project-img' src='/images/RetouchBarn.jpg' alt='website interface'  width="100%" height="auto"/>
+            <img className='project-img' src='/images/retouchbarn.jpg' alt='website interface'  width="100%" height="auto"/>
               </a>
             <div className="case-title double-line"> HTML | CSS | JavaScript</div>
             <p> This is a responsive web development </p>

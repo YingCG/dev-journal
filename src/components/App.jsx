@@ -8,6 +8,7 @@ import Css from "./Css";
 import JsBasic from "./JsBasic";
 import Tools from "./Tools";
 import '../style/style.css'
+import '../style/hello.css'
 import '../style/button.css'
 // import About from "./About";
 import Design from "./Design";
