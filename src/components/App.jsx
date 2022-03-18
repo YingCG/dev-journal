@@ -1,21 +1,20 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./Header";
-import Home from "./Home";
-import Stories from "./Stories";
-import Footer from "./Footer";
-import Css from "./Css";
-import JsBasic from "./JsBasic";
-import Tools from "./Tools";
-import '../style/style.css'
-import '../style/hello.css'
-import '../style/button.css'
-// import About from "./About";
-import Design from "./Design";
-import Projects from "./Projects";
-import TodoList from "./TodoList";
-import ShapeForm from "./ShapeForm";
-import Calculator from "./Calculator";
+import Header from "./Header/Header";
+import Home from "./HomePage/Home";
+import Stories from "./Stories/Stories";
+import Footer from "./Footer/Footer";
+import Css from "./ProjectsRoadMap/Css";
+import JsBasic from "./ProjectsRoadMap/JsBasic";
+import Tools from "./Tools/Tools";
+import './style/style.css'
+import './style/button.css'
+import Design from "./HomePage/Design";
+import Projects from "./Projects/Projects";
+import TodoList from "./Tools/TodoList";
+import ShapeForm from "./Shapeslist/ShapeForm";
+import Calculator from "./Calculator/Calculator";
+import About from "./About/About";
 
 
 function App() {
@@ -28,6 +27,7 @@ function App() {
          <Header/>
           <Routes>
             <Route exact path='/' element={<Home/>} />
+            <Route exact path='/about' element={<About/>} />
             <Route exact path='/design' element={<Design/>} />
             <Route exact path='/development' element={<Projects/>} />
             <Route exact path='/projects/css' element={<Css/>} />

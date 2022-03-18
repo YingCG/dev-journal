@@ -1,0 +1,105 @@
+.shape {
+        width: 100%;
+        height: auto;
+}
+
+.parallelogram {
+    width: 150px;
+    height: 100px;
+    transform: skew(20deg);
+    background: thistle;
+  }
+
+.circle {
+        width: 100px;
+        height: 100px;
+        background: #BAABDA;
+        border-radius: 50%
+      }
+
+      
+    #oval {
+        width: 200px;
+        height: 100px;
+        background: #FFBCD1;
+        border-radius: 100px / 50px;
+      }
+    
+      #triangle-up {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid #7882A4;
+      }
+
+      #triangle-down {
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 100px solid #D3ECA7;
+      }
+    
+      
+    #triangle-left {
+        width: 0;
+        height: 0;
+        border-top: 50px solid transparent;
+        border-right: 100px solid #F7ECDE;
+        border-bottom: 50px solid transparent;
+      }
+
+      
+    #triangle-right {
+        width: 0;
+        height: 0;
+        border-top: 50px solid transparent;
+        border-left: 100px solid #D3ECA7;
+        border-bottom: 50px solid transparent;
+      }
+
+      #triangle-topleft {
+        width: 0;
+        height: 0;
+        border-top: 100px solid #B4CFB0;
+        border-right: 100px solid transparent;
+      }
+
+      #triangle-topright {
+        width: 0;
+        height: 0;
+        border-top: 100px solid #9ADCFF;
+        border-left: 100px solid transparent;
+      }
+
+      
+    #triangle-bottomleft {
+        width: 0;
+        height: 0;
+        border-bottom: 100px solid #019267;
+        border-right: 100px solid transparent;
+      }
+    
+
+      
+    #triangle-bottomright {
+        width: 0;
+        height: 0;
+        border-bottom: 100px solid #BB6464;
+        border-left: 100px solid transparent;
+      }
+
+      #pacman {
+        width: 0px;
+        height: 0px;
+        border-right: 60px solid transparent;
+        border-top: 60px solid #FFBDE6;
+        border-left: 60px solid #FFBDE6;
+        border-bottom: 60px solid #FFBDE6;
+        border-top-left-radius: 60px;
+        border-top-right-radius: 60px;
+        border-bottom-left-radius: 60px;
+        border-bottom-right-radius: 60px;
+      }
+    
