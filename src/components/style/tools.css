@@ -25,15 +25,25 @@
     padding:20px;
     color: white;
 }
+
+.todo-item{
+    margin-right: 0.25rem;
+    font-size: 18px;
+}
+
 .todo input{
     margin-bottom: 10px ;
     border: none;
-    height: 2rem;
+    /* height: 2rem; */
+    padding: 0.5rem;
 }
 .todo button{
-    margin-bottom: 10px ;
+    padding: 0.5rem;
     border: none;
-    height: 2rem;
+    /* height: 2rem; */
+    background-color: black;
+    color: white;
+    margin-bottom: 10px ;
 }
 
 .todo-list{

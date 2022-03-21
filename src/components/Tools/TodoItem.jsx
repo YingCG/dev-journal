@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 
 function TodoItem(props){
-
     const [isDone, setIsDone] = useState(false)
 
     function crossOut(){
@@ -11,13 +10,11 @@ function TodoItem(props){
     }
 
     return (
-        <div onClick={()=> {
-            props.onChecked(props.id)
-        }}>
-            <li onClick={crossOut}>
+        <div >
+            <li className='todo-item' style={{textDecoration: isDone? 'line-through': 'none'}} >
                 {props.text}
-                <span> <button>Done</button></span>
-                <span className='remove'><button> x </button></span>
+                <span className='todo-item' > <button onClick={crossOut}>Done</button></span>
+                <span className='todo-item' ><button onClick={() => props.deleteItem()}> Delete </button></span>
             </li>
         </div>
     )

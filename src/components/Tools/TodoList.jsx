@@ -4,33 +4,29 @@ import '../style/tools.css'
 
 function TodoList () {
     const [inputText, setInputText] = useState('')
-    const [tasks, setTasks] = useState([])
+    const [items, setItems] = useState([])
 
     function handleChange(event){
         const newInput = event.target.value
         setInputText(newInput)
     }
 
-    function addItem(){
-        setTasks((prevItems) => {
-            return [...prevItems, inputText]
+    function addItem(event){
+        event.preventDefault()
+        setItems((todos) => {
+            return [...todos, inputText]
         })
         setInputText('')
     }
 
-    function deleteItem(id){
-        setTasks((prevItems) => {
-            return prevItems.filter(
-                (item, index) => {
-                    return index !== id;
-                }
-            )
+    function deleteTask(index) {
+        setItems((todos) => {
+            return todos.filter((_, i) => index !== i)
         })
     }
 
-
     return (
-        <div className="todo">
+        <div className="todo" >
             <h1>To-Do List</h1>
             <div className="add-todo">
                 <input name='todo' onChange={handleChange} type='text' placeholder="What's next?" 
@@ -39,9 +35,9 @@ function TodoList () {
             </div>
             <div className='todo-list'>
                 <ul>
-                    {tasks.map((todoItem,index) => <TodoItem 
+                    {items.map((todoItem,index) => <TodoItem 
                         key={index} id={index} text={todoItem}
-                        onCheck={deleteItem}
+                        deleteItem={() => deleteTask(index)}
                     />
                     )}
                 </ul>

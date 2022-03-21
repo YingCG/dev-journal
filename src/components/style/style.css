@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital@0;1&family=Cutive&family=Cutive+Mono&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300&family=Roboto+Slab:wght@300;400&display=swap');
 
 * {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     text-decoration: none;
   }
 
 body{
-    font-size: 18px;
+    /* font-size: 18px; */
     color: #0061AF;
     font-family: 'Tajawal', sans-serif;
 }
@@ -21,6 +21,7 @@ body{
 .main-content {
   width: 100%;
   height: auto;
+  margin: 0;
 }
 
 .page-container{
