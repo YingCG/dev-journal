@@ -12,14 +12,14 @@ function TreeMenu() {
   return (
     <>
     <div className='tree-list'>
-            <div className="tree-buttons">
-            {treemenu.map (stories => {
+            <button className="tree-buttons">
+            {treemenu.map (button => {
               return (
-              <Story key={stories.id} title={stories.title} description={stories.description} />
+              <Story key={button.id} title={button.title} />
               )
             })}
 
-          </div>
+          </button>
           </div>     </>
   );
 }
