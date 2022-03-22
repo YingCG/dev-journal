@@ -24,9 +24,8 @@ function App() {
       <>
         <div className="app-container">
         <Router>
-         <Header/>
           <Routes>
-            <Route exact path='/' element={<Home/>} />
+            <Route exact path='/' element={<Stories/>} />
             <Route exact path='/about' element={<About/>} />
             <Route exact path='/design' element={<Design/>} />
             <Route exact path='/development' element={<Projects/>} />
@@ -36,9 +35,8 @@ function App() {
             <Route exact path='/projects/calculator' element={<Calculator/>} />
             <Route exact path='/projects/createshape' element={<ShapeForm/>} />
             <Route exact path='/projects/todolist' element={<TodoList/>} />
-            <Route exact path='/stories' element={<Stories/>} />
+            <Route exact path='/stories' element={<Home/>} />
           </Routes>
-        <Footer />
         </Router>
         </div>
       </>

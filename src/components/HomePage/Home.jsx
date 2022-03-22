@@ -6,6 +6,7 @@ import Ascii from './Ascii'
 import Greeting from '../Greeting/Greeting'
 import { Link } from 'react-router-dom'
 import Project from '../Projects/Project'
+import Nav from '../Header/Nav'
 
 function Home() {
 
@@ -15,6 +16,7 @@ function Home() {
         <div className="welcome" >
 
           <div className="welcome-text" style={{ backgroundColor: '#f7f5f2' }}>
+          <Link to='/'><img className="logo" src="/YingCG.svg" alt="logo"/></Link>
                       <h1 className='big-text'>Welcome.</h1>
                       <p> Kiora! I am ying. I like to use bold, playful typography and graphics.
                         Combination with empathy and authenticity, I would like to bring a creative point of view on code. To build useful things, solving problems, and bring in good experiences with human-centered products.
@@ -41,7 +43,8 @@ function Home() {
                         <p className='link-text'>Design project I get involve.</p>
                       </a>
                       <br />
-                      <a href="mailto:yingchiu@live.com"><button className='nav-btn' style={{ backgroundColor: '#151D3B' }}>Contact Me</button></a>
+                      <Link exact to='/development'><button className='nav-btn'>Development</button></Link>
+                      <a href="mailto:yingchiu@live.com"><button className='nav-btn'>Contact Me</button></a>
                     </div>
                     
         <div className="welcome-hello">

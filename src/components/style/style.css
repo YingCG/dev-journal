@@ -10,6 +10,7 @@ body{
     /* font-size: 18px; */
     color: #0061AF;
     font-family: 'Tajawal', sans-serif;
+    margin: 0;
 }
 
 .app-container {
@@ -20,7 +21,7 @@ body{
 
 .main-content {
   width: 100%;
-  height: auto;
+  height: 100vh;
   margin: 0;
 }
 
@@ -75,6 +76,7 @@ h3{
     grid-gap: 2rem;
     overflow: auto;
 }
+
 
 
 .case-title {
@@ -135,6 +137,11 @@ h3{
 }
 .case-title{
   text-align: center;
+}
+
+
+.title h1{
+  font-size: 90px;
 }
 
 @media only screen and (max-width: 767px) {
