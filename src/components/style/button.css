@@ -60,11 +60,25 @@ justify-content: flex-end;
     border-radius: 4rem;
     margin: 0.5rem 0.5rem;
 }
+.nav-btn-dark{
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    border: none;
+    background-color:#0061AF;
+    color: white;
+    font-size: 18px;
+    border-radius: 4rem;
+    margin: 0.5rem 0.5rem;
+}
 
 .nav-btn:hover{
     background-color:#ED0BFF;
     color: white;
+}
 
+.nav-btn-dark:hover{
+    background-color:#ED0BFF;
+    color: white;
 }
 
 .checkForm .btn{

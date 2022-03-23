@@ -1,21 +1,22 @@
 import React, { useState }  from 'react'
-
+import { useNavigate } from 'react-router-dom'
 import "../style/treerings.css";
 
-function ButtonsMenu({ onClick }) {
+function ButtonsMenu() {
 
-    const [contents, setContents] = useState('')
+    // const [contents, setContents] = useState('')
+    let navigate = useNavigate(); 
 
-    function showContent(){
-        // setContents(`cir${ }`) 
-        console.log('somthing here'); 
+    function showContent(path){
+        // console.log('somthing here'); 
+        navigate(path);
     }
 
   return (
     <>
       <svg className='treerings' viewBox="0 0 578.3 538.6" >
 
-        <g className='treecircle' onClick={showContent} id="cir10" >
+        <g className='treecircle' onClick={() => showContent('/hello')} id="cir10">
           <g>
             <path class="st0" 
               d="M29.5,139.3c2.9-5.3,6-10.6,8.6-16.1c3.3-7.1,8.9-12.4,14.1-17.8C64,93,76.8,81.6,88.9,69.4
@@ -1194,7 +1195,7 @@ function ButtonsMenu({ onClick }) {
           </g>
         </g>
 
-        <g className='treecircle' onClick={showContent} id="cir09">
+        <g className='treecircle' onClick={() => showContent('/development')} id="cir09">
           <g>
             <path
               class="st0"

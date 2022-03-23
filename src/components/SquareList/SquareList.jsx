@@ -6,6 +6,7 @@ import '../style/hello.css'
 import '../style/squarelist.css'
 import Greeting from '../Greeting/Greeting';
 import { Link } from 'react-router-dom'
+import Header from '../Header/Header';
 
 function SquareList() {
   const pallete = ['#E4EFE7', '#FFE194', '#D6E5FA', '#D4E2D4', '#D9D7F1', '#F3F1F5', '#7EB5A6', '#CEE5D0', '#EDF6E5', '#F0D9FF', '#F4F9F9', '#D3DEDC', '#E4D8DC', '#FEFBF3', '#93B5C6', '#F7F2E7', '#C9CCD5', '#FFFDDE', '#F0ECE3', '#CDF2CA', '#FFEFEF', '#FCF9EA', '#BADFDB', '#F8A978', '#FFC5A1', '#F3F8FF', '#DEECFF', '#C6CFFF', '#E8D3FF', '#B8DFD8'];
@@ -42,20 +43,10 @@ function SquareList() {
   return (
     <>
       <div className='two-column'>
-        <div className="big-square" >
-        <Link to='/'><img className="logo" src="/YingCG.svg" alt="logo"/></Link>
-            <h1 style={{ fontSize: '2.5rem'}}> Projects Roadmap </h1>
-            <Greeting greeting={'Welcome to my coding journal. '} style={{color: '#3D087B'}} /> 
-              <p> Programming is a universe itself yet to discover... Here, I am tracking my growth as a developer.
-                I am constantly learning and exploring the possibilities to approach problems.
+        <img className='pallette' src="/images/pallette_icon.svg" alt="pallete" onClick={changeColourPallete}></img>
+        <p>You can change the colour pallette by clicking this</p>
+      </div>
 
-                As a start, I will first using this <strong>Projects Roadmap</strong> to create and show the projects I have developed...
-                Eventually I will tell you the full stories. Write down how and why I solved coding problems, and reveal hurdles in my workflow.
-                <br/>
-                <br/>
-                <button className='nav-btn' onClick={changeColourPallete}><a>Change colour pallete</a></button>
-              </p>
-          </div>
           <div className='square-container'>
           {/* <div className="square-list"> */}
             {
@@ -90,11 +81,8 @@ function SquareList() {
                 links: [{ title: "Calculator", url: "/projects/calculator", route: true }]
               }} updateColor={changeOneColour} >
               </Square>
+            </div>            
             </div>
-          
-            
-            </div>
-          </div>
     </>
   )
 }
