@@ -41,14 +41,16 @@ function Project(){
           </div>
           <div className="case-study">
             <div className="project" width="100%" height="auto">
-            <Link className='project-img' exact to='/projects/calculator'><Calculator/>
+            <Link className='project-img' exact to='/projects/calculator'>
+              <img className='project-img' src='/images/Calculator.jpg' alt='website interface'  width="100%" height="auto"/>
             </Link>
             <div className="case-title double-line">ReactJS | Redux | CSS </div>
               </div>
           </div>
           <div className="case-study">
             <div className="project" width="100%" height="auto">
-            <Link className='project-img' exact to='/projects/todolist'><TodoList/>
+            <Link className='project-img' exact to='/projects/todolist'>
+              <img className='project-img' src='/images/TodoList.jpg' alt='website interface'  width="100%" height="auto"/>
             </Link>
             <div className="case-title double-line">ReactHook | CSS </div>
               </div>

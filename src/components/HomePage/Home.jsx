@@ -12,7 +12,7 @@ function Home() {
 
     return (
     <>
-        <div className='main-content' style={{background: '#62917F'}}>
+        <div className='home-content' style={{background: '#62917F'}}>
         <div className="stories" >
         <div className="stories-text" >
         <Link to='/'><img className="logo" src="./images/YingCG.svg" alt="logo"/></Link>
@@ -25,6 +25,9 @@ function Home() {
            To remind myself to Keep Calm and Stay Curious, I practice some Human skills to code along.
 
             </p>
+            {/* <Link exact to='/stories'><button className='nav-btn'>Humanity</button></Link>
+            <Link exact to='/hello'><button className='nav-btn'>Aesthetic</button></Link>
+            <Link exact to='/development'><button className='nav-btn'>Tech</button></Link> */}
             <Link exact to='/development'><button className='nav-btn'>Projects</button></Link>
             <Link exact to='/hello'><button className='nav-btn'>About Me</button></Link>
             {/* <a href="mailto:yingchiu@live.com"><button className='nav-btn'>Contact Me</button></a> */}

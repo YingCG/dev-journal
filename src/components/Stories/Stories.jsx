@@ -7,15 +7,15 @@ import '../style/hello.css'
 import ButtonsMenu from "../Treerings/ButtonsMenu";
 import { Link } from 'react-router-dom'
 import Nav from "../Header/Nav";
+import Header from "../Header/Header";
 
 function Stories() {
   // const [toggle, setToggle] = useState(0)
   return (
     <>
-        <div className='main-content' style={{background: '#62917F'}}>
+    <Header/>
         <div className="stories" >
         <div className="stories-text" >
-        <Link to='/'><img className="logo" src="./images/YingCG.svg" alt="logo"/></Link>
           <h1 className='big-text' style={{textTransform: 'Uppercase'}}>Solving Problems... </h1>
           <h1 className='subtitle' > Learning to Code.</h1>
           <p> 
@@ -45,7 +45,6 @@ function Stories() {
 
           </div>
           </div> 
-      </div>
     </>
   );
 }

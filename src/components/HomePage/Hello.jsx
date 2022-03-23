@@ -8,16 +8,17 @@ import { Link } from 'react-router-dom'
 import Project from '../Projects/Project'
 import Nav from '../Header/Nav'
 import SquareList from '../SquareList/SquareList'
+import Header from '../Header/Header'
 
 function Home() {
 
   return (
     <>
+        <Header />
       <div className='main-content'>
         <div className="welcome" >
 
           <div className="welcome-text" style={{ backgroundColor: '#f7f5f2' }}>
-          <Link to='/'><img className="logo" src="/YingCG.svg" alt="logo"/></Link>
                       <h1 className='big-text'>Welcome.</h1>
                       <p> Kiora! I am ying. I like to use bold, playful typography and graphics.
                         Combination with empathy and authenticity, I would like to bring a creative point of view on code. To build useful things, solving problems, and bring in good experiences with human-centered products.

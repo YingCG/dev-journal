@@ -16,6 +16,7 @@ import ShapeForm from "./Shapeslist/ShapeForm";
 import Calculator from "./Calculator/Calculator";
 import About from "./About/About";
 import Home from "./HomePage/Home";
+import Pseudocode from "./Stories/Pseudocode";
 
 
 function App() {
@@ -37,6 +38,8 @@ function App() {
             <Route exact path='/projects/createshape' element={<ShapeForm/>} />
             <Route exact path='/projects/todolist' element={<TodoList/>} />
             <Route exact path='/hello' element={<Hello />} />
+            <Route exact path='/stories' element={<Stories />} />
+            <Route exact path='/problem_solving' element={<Pseudocode />} />
           </Routes>
         </Router>
         </div>

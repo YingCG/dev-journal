@@ -2107,7 +2107,7 @@ function ButtonsMenu() {
           </g>
         </g>
 
-        <g className='treecircle' onClick={showContent} id="cir08">
+        <g className='treecircle' onClick={() => showContent('/projects/tools')} id="cir08">
           <g>
             <path
               class="st0"
@@ -2722,7 +2722,7 @@ function ButtonsMenu() {
           </g>
         </g>
 
-        <g className='treecircle' onClick={showContent} id="cir07">
+        <g className='treecircle' onClick={() => showContent('/stories')} id="cir07">
           <g>
             <path
               class="st0"
@@ -3118,7 +3118,7 @@ function ButtonsMenu() {
           </g>
         </g>
 
-        <g className='treecircle' onClick={showContent} id="cir05">
+        <g className='treecircle' onClick={() => showContent('/projects/css')} id="cir05">
           <g>
             <path
               class="st0"
@@ -3316,7 +3316,7 @@ function ButtonsMenu() {
           </g>
         </g>
       
-        <g className='treecircle' onClick={showContent} id="cir04">
+        <g className='treecircle' onClick={() => showContent('/projects/createshape')} id="cir04">
           <g>
             <path
               class="st0"
@@ -3467,7 +3467,7 @@ function ButtonsMenu() {
           </g>
         </g>
 
-        <g className='treecircle' onClick={showContent} id="cir03">
+        <g className='treecircle' onClick={() => showContent('/problem_solving')} id="cir03">
           <g>
             <path
               class="st0"
@@ -3567,7 +3567,7 @@ function ButtonsMenu() {
           </g>
         </g>
 
-        <g className='treecircle' onClick={showContent} id="cir02">
+        <g className='treecircle' onClick={() => showContent('/development')} id="cir02">
           <g>
             <path
               class="st0"
@@ -3640,7 +3640,7 @@ function ButtonsMenu() {
           </g>
         </g>
 
-        <g className='treecircle' onClick={showContent} id="cir01">
+        <g className='treecircle' onClick={() => showContent('/hello')} id="cir01">
           <g>
             <path
               class="st0"

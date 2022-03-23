@@ -8,10 +8,9 @@ import BigSquare from "../SquareList/BigSquare";
 function Projects() {
   return (
     <>
-      <div className="main-content" >
       <Header />
+      <div className="main-content" >
       <SquareList />
-      <BigSquare />
       <Project />
       </div>
             </>
