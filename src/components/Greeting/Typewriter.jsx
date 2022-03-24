@@ -22,7 +22,7 @@ function Typewriter({message}){
 
     return (
         <>
-        <h3 className='message' >{text}</h3>
+        <h3 className='message' >{text}&nbsp;</h3>
         </>
     )
 }

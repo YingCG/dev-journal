@@ -9,6 +9,7 @@ import Project from '../Projects/Project'
 import Nav from '../Header/Nav'
 import SquareList from '../SquareList/SquareList'
 import Header from '../Header/Header'
+import Technologies from '../About/Technologies'
 
 function Home() {
 
@@ -62,6 +63,7 @@ function Home() {
             </p>
           </div>
         </div>
+        <Technologies />
       </div>
     </>
   )
