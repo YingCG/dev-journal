@@ -5,12 +5,8 @@ import '../style/button.css'
 import Ascii from './Ascii'
 import Greeting from '../Greeting/Greeting'
 import { Link } from 'react-router-dom'
-import Project from '../Projects/Project'
-import Nav from '../Header/Nav'
-import SquareList from '../SquareList/SquareList'
 import Header from '../Header/Header'
 import Technologies from '../About/Technologies'
-import IconNav from '../Header/IconNav'
 
 function Home() {
 

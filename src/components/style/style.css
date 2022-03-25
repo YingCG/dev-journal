@@ -16,15 +16,17 @@ body{
 .app-container {
     margin-top: 0;
     margin: 0;
-    width: 100%;
   }
 
 .main-content {
-  width: 100%;
+  width: 100vw;
   min-height: 100vh;
   padding: 2rem;
 }
 
+.home-content{
+  min-height: 100vh;
+}
 .page-container{
   width: 100%;
   min-height: 100vh;
@@ -159,6 +161,7 @@ h3{
     font-family: 'Courier Prime', monospace;
     margin:1rem;
     margin-bottom: 1rem;
+    justify-content: center;
   }
   
   .header-left{
@@ -167,7 +170,6 @@ h3{
   }
   .header-right{
     flex: 2;
-    display: flex;
     align-items: flex-end;
   }
  .header-content h1{
