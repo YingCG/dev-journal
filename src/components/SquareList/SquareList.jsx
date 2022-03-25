@@ -56,8 +56,8 @@ function SquareList() {
                 <br/>
               </p>
               <div className='pallete' onClick={changeColourPallete}>
-            <h6>You can change the colour pallette by clicking this  </h6>
             <img className='pallette-icon' src="/images/pallette_icon.svg" alt="pallete" onClick={changeColourPallete}></img>
+            <h6>You can change the colour pallette by clicking this  </h6>
           </div>
           </div> 
           <div className='square-container' >
@@ -74,6 +74,7 @@ function SquareList() {
               }} updateColor={changeOneColour} >
 
                 <div className='pallete' >
+                <img className='pallette-icon' src="/images/pallette_icon.svg" alt="pallete" ></img>
                   <h6>You can also clicking individual square color to change colour. </h6>
                 </div>
               </Square>

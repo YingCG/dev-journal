@@ -1,0 +1,28 @@
+
+.tech {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.tech ul li{
+  list-style-type: none;
+}
+
+.tech ul{
+  padding-inline-start: 0;
+}
+
+.session {
+  text-decoration: none;
+}
+
+.tech-icon {
+  font-size: 50px;
+  align-items: center;
+  /* display: flex; */
+}
+
+.tech-icon h3{
+  font-size: 22px;
+}

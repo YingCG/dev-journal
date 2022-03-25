@@ -12,6 +12,9 @@
   flex: 1;
 }
 
+.stories-bg{
+  background: linear-gradient(to bottom, #54BAB9, #98BAE7, #BAABDA, #A06EE1 );
+}
 /* .stories-text h1{
   margin-block-start: 0.25rem;
   margin-block-end: 0.25rem;
@@ -27,7 +30,7 @@
   color: white;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 860px) {
   .logo{
     width: 65px;
     height: auto;
@@ -74,6 +77,7 @@
         /* background: linear-gradient(to left, #151D3B, #084594); */
     }
     
+
     .welcome-text{
       padding: 2rem;
       font-size: 15px;
@@ -118,7 +122,7 @@
       }
   }
 
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  @media only screen and (min-width: 861px) and (max-width: 1024px) {
 
     .monospaced {
       font-family: "Courier New", Courier, monospace;
@@ -153,7 +157,7 @@
     
     .welcome-text{
       flex: 1 ;
-      padding: 3rem;
+      padding: 2rem;
     }
     
     .welcome-hello{

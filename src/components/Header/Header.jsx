@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from 'react-router-dom'
+import IconNav from "./IconNav";
 import Nav from "./Nav";
 
 function Header() {
@@ -15,7 +16,8 @@ function Header() {
           </div>
         </div>
         <div className="header-right">
-          <Nav />
+        <IconNav mode={'dark'}/>
+        <Nav />
         </div>
       </div>
   );

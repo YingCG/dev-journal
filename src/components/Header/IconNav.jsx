@@ -1,28 +1,33 @@
 import React from 'react';
-import '../style/socialmedia.css'
-import { FaLinkedin, FaGithub} from 'react-icons/fa';
-import { MdEmail} from 'react-icons/md';
+import '../style/tech.css'
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { MdEmail } from 'react-icons/md';
 
 
-function IconNav(){
-    return (
-        <>
-					<a href="https://www.github.com/YingCG" target="_blank" rel="noreferrer">
-						<FaGithub/>
-						<span className="sr-only">Github</span>
-					</a>
+function IconNav() {
 
-					<a href="https://www.linkedin.com/in/yingchiu-goh/" target="_blank" rel="noreferrer">
-					<FaLinkedin/>
-					<span className="sr-only">LinkedIn</span>
-					</a>
 
-					<a href="mailto:yingchiu@live.com">
-						<MdEmail/>
-						<span className="sr-only">Email</span>
-					</a>
-        </>
-    )
+	return (
+		<>
+			<div className="icongroup"  >
+
+				<a href="https://www.github.com/YingCG" target="_blank" rel="noreferrer">
+					<FaGithub />
+					<p className="icon-details">Github</p>
+				</a>
+				<a href="mailto:yingchiu@live.com">
+					<MdEmail />
+					<p className="icon-details">Email</p>
+				</a>
+
+				<a href="https://www.linkedin.com/in/yingchiu-goh/" target="_blank" rel="noreferrer">
+					<FaLinkedin />
+					<p className="icon-details">LinkedIn</p>
+				</a>
+
+			</div>
+		</>
+	)
 }
 
 export default IconNav

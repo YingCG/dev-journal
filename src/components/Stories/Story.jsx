@@ -16,7 +16,7 @@ function Story (props) {
             <div className="square" style={{ backgroundColor: storyStyle() }} >
                 <h4> {props.title} </h4>
                 <p>{props.description}</p>
-                {/* <form className="checklist" key={props.id}>
+                <form className="checklist" key={props.id}>
                     <p>
                         {props.checklist.map(checklistItem => {
                             return (
@@ -27,7 +27,7 @@ function Story (props) {
                         )
                         })}
                     </p>
-                </form> */}
+                </form>
                 <button > More</button>
             </div>
         </>

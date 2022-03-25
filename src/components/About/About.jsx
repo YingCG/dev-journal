@@ -1,6 +1,6 @@
 import React from 'react'
 import Technologies from './Technologies'
-import '../style/socialmedia.css'
+import '../style/tech.css'
 
 function About () {
   return (

@@ -10,6 +10,7 @@ import Nav from '../Header/Nav'
 import SquareList from '../SquareList/SquareList'
 import Header from '../Header/Header'
 import Technologies from '../About/Technologies'
+import IconNav from '../Header/IconNav'
 
 function Home() {
 
@@ -20,10 +21,10 @@ function Home() {
         <div className="welcome" >
 
           <div className="welcome-text" style={{ backgroundColor: '#f7f5f2' }}>
-                      <h1 className='big-text'>Welcome.</h1>
-                      <p> Kiora! I am ying. I like to use bold, playful typography and graphics.
+                      <h1 className='big-text'>Kiora!  </h1>
+                      <p> I am ying. I like to use bold, playful typography and graphics.
                         Combination with empathy and authenticity, I would like to bring a creative point of view on code. To build useful things, solving problems, and bring in good experiences with human-centered products.
-                        The main area of my expertise is front-end development, HTML, CSS, React JS, building small and medium web apps.
+                        The main area of my expertise is front-end development, HTML, CSS, React JS.
                       </p>
 
                       <Link exact to='/projects/tools' className="double-line">
@@ -46,8 +47,6 @@ function Home() {
                         <p className='link-text'>Design project I get involve.</p>
                       </a>
                       <br />
-                      <Link exact to='/development'><button className='nav-btn-dark'>Development</button></Link>
-                      <a href="mailto:yingchiu@live.com"><button className='nav-btn-dark'>Contact Me</button></a>
                     </div>
                     
         <div className="welcome-hello">

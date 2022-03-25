@@ -28,10 +28,8 @@ function Stories() {
             <Link exact to='/hello'><button className='nav-btn'>Humanity</button></Link>
             <Link exact to='/development'><button className='nav-btn'>Tech</button></Link>
             <Link exact to='/art'><button className='nav-btn'>Aesthetic</button></Link>
-            {/* <a href="mailto:yingchiu@live.com"><button className='nav-btn'>Contact Me</button></a> */}
-            {/* <p> Below are some de-tress checklist base on the situation I am facing.</p> */}
-          </div>
-          {/* <img className="treerings" src="../images/treestump.svg" alt="treerings"/> */}
+            <p> Below are some de-tress checklist base on the situation I am facing.</p>
+
           <ButtonsMenu />
 
           </div>
@@ -45,6 +43,7 @@ function Stories() {
 
           </div>
           </div> 
+          </div>
     </>
   );
 }

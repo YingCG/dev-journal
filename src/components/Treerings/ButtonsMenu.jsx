@@ -3316,7 +3316,7 @@ function ButtonsMenu() {
           </g>
         </g>
       
-        <g className='treecircle' onClick={() => showContent('/projects/createshape')} id="cir04">
+        <g className='treecircle' onClick={() => showContent('/hello')} id="cir04">
           <g>
             <path
               class="st0"
@@ -3467,7 +3467,7 @@ function ButtonsMenu() {
           </g>
         </g>
 
-        <g className='treecircle' onClick={() => showContent('/problem_solving')} id="cir03">
+        <g className='treecircle' onClick={() => showContent('/stories')} id="cir03">
           <g>
             <path
               class="st0"
@@ -3567,7 +3567,7 @@ function ButtonsMenu() {
           </g>
         </g>
 
-        <g className='treecircle' onClick={() => showContent('/development')} id="cir02">
+        <g className='treecircle' onClick={() => showContent('/projects/tools')} id="cir02">
           <g>
             <path
               class="st0"
@@ -3640,7 +3640,7 @@ function ButtonsMenu() {
           </g>
         </g>
 
-        <g className='treecircle' onClick={() => showContent('/hello')} id="cir01">
+        <g className='treecircle' onClick={() => showContent('/stories')} id="cir01">
           <g>
             <path
               class="st0"

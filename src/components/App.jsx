@@ -1,7 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./Header/Header";
-import Stories from "./Stories/Stories";
 import Footer from "./Footer/Footer";
 import Css from "./ProjectsRoadMap/Css";
 import JsBasic from "./ProjectsRoadMap/JsBasic";
@@ -14,7 +12,6 @@ import Projects from "./Projects/Projects";
 import TodoList from "./Tools/TodoList";
 import ShapeForm from "./Shapeslist/ShapeForm";
 import Calculator from "./Calculator/Calculator";
-import About from "./About/About";
 import Home from "./HomePage/Home";
 import Pseudocode from "./Stories/Pseudocode";
 
@@ -28,7 +25,6 @@ function App() {
         <Router>
           <Routes>
             <Route exact path='/' element={<Home/>} />
-            <Route exact path='/about' element={<About/>} />
             <Route exact path='/design' element={<Design/>} />
             <Route exact path='/development' element={<Projects/>} />
             <Route exact path='/projects/css' element={<Css/>} />
@@ -38,10 +34,10 @@ function App() {
             <Route exact path='/projects/createshape' element={<ShapeForm/>} />
             <Route exact path='/projects/todolist' element={<TodoList/>} />
             <Route exact path='/hello' element={<Hello />} />
-            <Route exact path='/stories' element={<Stories />} />
-            <Route exact path='/problem_solving' element={<Pseudocode />} />
+            <Route exact path='/stories' element={<Pseudocode />} />
           </Routes>
         </Router>
+        <Footer/>
         </div>
       </>
   )
