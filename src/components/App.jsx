@@ -10,7 +10,7 @@ import Design from "./HomePage/Design";
 import Hello from "./HomePage/Hello";
 import Projects from "./Projects/Projects";
 import TodoList from "./Tools/TodoList";
-import ShapeForm from "./Shapeslist/ShapeForm";
+import Shapes from "./Shapeslist/Shapes";
 import Calculator from "./Calculator/Calculator";
 import Home from "./HomePage/Home";
 import Pseudocode from "./Stories/Pseudocode";
@@ -31,7 +31,7 @@ function App() {
             <Route exact path='/projects/javascript-basic' element={<JsBasic/>} />
             <Route exact path='/projects/tools' element={<Tools/>} />
             <Route exact path='/projects/calculator' element={<Calculator/>} />
-            <Route exact path='/projects/createshape' element={<ShapeForm/>} />
+            <Route exact path='/projects/shapes' element={<Shapes/>} />
             <Route exact path='/projects/todolist' element={<TodoList/>} />
             <Route exact path='/hello' element={<Hello />} />
             <Route exact path='/stories' element={<Pseudocode />} />

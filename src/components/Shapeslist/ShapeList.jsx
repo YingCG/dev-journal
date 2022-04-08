@@ -1,29 +1,34 @@
 import React,{Component} from 'react'
 import Shape from "./Shape"
-import NewShapeForm from './ShapeForm'
+import NewShapeForm from './NewShapeForm';
 
 class ShapeList extends Component {
     constructor(props) {
-        super(props)
-        this.state = {Shape: [{width: 10, height: 40, color: 'orange' }]}
+        super(props);
+        this.state = { shapes: [{ width: 10, height: 40, color: "orange"}] }
         this.create = this.create.bind(this)
     }
-
+    
+    remove(id){
+        this.setState({
+            shapes: this.state.shapes.filter(shape => shape.id !== id)
+        })
+    }
     create(newShape){
         this.setState({
-            boxes: [...this.state.boxes, newShape]
+            shapes: [...this.state.shapes, newShape]
         })
     }
 
     render() {
-        const boxes = this.state.Shape.map( box => (
-            <Shape width={box.width} height={box.height} color={box.color}/>
+        const shapes = this.state.shapes.map(shape => (
+            <Shape key={shape.id} id={shape.id} width = {shape.width} height={shape.height} color={shape.color} removeShape={()=> this.remove(shape.id)}/>
         ))
         return (
             <div>
-                <h1>Color box Maker Thingy</h1>
+                <h1>Color Shape Maker</h1>
                 <NewShapeForm createShape={this.create}/>
-                {boxes}
+                {shapes}
             </div>
         )
     }

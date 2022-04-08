@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import uuid from 'uuid'
 
 class NewShapeForm extends Component {
     constructor(props) {
@@ -15,7 +16,8 @@ class NewShapeForm extends Component {
 
     handleSubmit(evt){
         evt.preventDefault()
-        this.props.createShape(this.state)
+        const newShape = {...this.state, id: uuid()}
+        this.props.createShape(newShape)
         this.setState({
             height: '',
             width: '',

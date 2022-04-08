@@ -3567,7 +3567,7 @@ function ButtonsMenu() {
           </g>
         </g>
 
-        <g className='treecircle' onClick={() => showContent('/projects/tools')} id="cir02">
+        <g className='treecircle' onClick={() => showContent('/projects/shapes')} id="cir02">
           <g>
             <path
               class="st0"

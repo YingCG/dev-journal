@@ -9,7 +9,7 @@ class Shape extends Component {
                 width: `${this.props.width}em`,
                 backgroundColor: this.props.color
             }}/>
-            <button>x</button>
+            <button onClick={this.props.removeShape}>x</button>
             </>
         )
     }
