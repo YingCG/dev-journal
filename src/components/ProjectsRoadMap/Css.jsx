@@ -1,9 +1,12 @@
 import React from "react";
+import Header from '../Header/Header'
 
 function Css () {
 
     return(
-        <><>
+        <>
+        <div className='main-content'>
+         <Header />
             <div className="square-list">
                 <div className="square-list">
                     <section id="square1" className="square">
@@ -164,7 +167,9 @@ function Css () {
 
                 </div>
             </div>
-        </><div className="sticky">I will stick to the screen when you reach my scroll position</div></>
+</div>
+       <div className="sticky">I will stick to the screen when you reach my scroll position</div>
+</>
      ) 
 }
 export default Css

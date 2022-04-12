@@ -30,7 +30,7 @@
   color: white;
 }
 
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 600px) {
   .logo{
     width: 65px;
     height: auto;
@@ -49,7 +49,99 @@
     }
     
     .hello {
-      font-size: 18px;
+      /* font-size: 18px; */
+      white-space: pre;
+      font-family: "Courier New", Courier, monospace;
+      text-align: center;
+      color: white;
+      /* color: #ED0BFF; */
+      max-width: 100%;
+    }
+
+    .welcome{
+      display: flex;
+      flex-direction: column-reverse;
+      width: 100%;
+      color: #151D3B;
+      width: fit-content;
+      block-size: fit-content;
+    }
+
+    .welcome-hello{
+        width: 100%;
+        height: auto;
+        /* font-size: 12px; */
+        max-width: 100%;
+        padding: 15px;
+        background: linear-gradient(to bottom, #54BAB9, #98BAE7, #BAABDA, #A06EE1 );
+        /* background: linear-gradient(to left, #151D3B, #084594); */
+    }
+    
+
+    .welcome-text{
+      padding: 2rem;
+      font-size: 15px;
+    }
+    
+    .two-column{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      width: 100%;
+      color: #151D3B;
+      width: fit-content
+    }
+
+    .square-container{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .big-square{
+      padding: 3rem;
+      font-size: 14px;
+      background:  #f7f5f2;
+      color: #151D3B;
+      font-weight: 300;
+    }
+    .project-right{
+      padding: 3rem;
+    }
+    
+    .big-text h1 {
+      font-family: 'Tajawal', sans-serif;
+        font-size: 3rem;
+        margin-block-start: 0;
+        margin-block-end: 0;
+    }
+
+      .square-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        flex-wrap: wrap;
+      }
+  }
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .logo{
+    width: 65px;
+    height: auto;
+  }
+    .monospaced {
+    font-family: "Courier New", Courier, monospace;
+      white-space: pre;
+      display: none;
+      color: white;
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .monospaced:after {
+      content: " ";
+    }
+    
+    .hello {
+      /* font-size: 18px; */
       white-space: pre;
       font-family: "Courier New", Courier, monospace;
       text-align: center;
@@ -122,7 +214,7 @@
       }
   }
 
-  @media only screen and (min-width: 861px) and (max-width: 1024px) {
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
 
     .monospaced {
       font-family: "Courier New", Courier, monospace;

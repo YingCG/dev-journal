@@ -1,11 +1,12 @@
 import React,{Component} from 'react'
 import Shape from "./Shape"
+// import NewShape from "./NewShape"
 import NewShapeForm from './NewShapeForm';
 
 class ShapeList extends Component {
     constructor(props) {
         super(props);
-        this.state = { shapes: [{ width: 10, height: 40, color: "orange"}] }
+        this.state = { shapes: [{ width: 10, height: 10, color: "orange"}] }
         this.create = this.create.bind(this)
     }
     

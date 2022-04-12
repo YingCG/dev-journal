@@ -7,6 +7,7 @@ import { Link } from 'react-router-dom'
 import Typewriter from "../Greeting/Typewriter";
 import Project from "../Projects/Project";
 import IconNav from "../Header/IconNav";
+import Footer from "../Footer/Footer";
 
 
 function Home() {
@@ -41,6 +42,7 @@ function Home() {
         </div>
       </div>
       <Project />
+      <Footer/>
     </>
   );
 }

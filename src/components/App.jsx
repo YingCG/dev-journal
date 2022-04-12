@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Footer from "./Footer/Footer";
+// import Footer from "./Footer/Footer";
 import Css from "./ProjectsRoadMap/Css";
 import JsBasic from "./ProjectsRoadMap/JsBasic";
 import Tools from "./Tools/Tools";
@@ -14,6 +14,7 @@ import Shapes from "./Shapeslist/Shapes";
 import Calculator from "./Calculator/Calculator";
 import Home from "./HomePage/Home";
 import Pseudocode from "./Stories/Pseudocode";
+import TimeShapes from "./Shapeslist/timedshape/TimedShapes";
 
 
 function App() {
@@ -32,12 +33,12 @@ function App() {
             <Route exact path='/projects/tools' element={<Tools/>} />
             <Route exact path='/projects/calculator' element={<Calculator/>} />
             <Route exact path='/projects/shapes' element={<Shapes/>} />
+            <Route exact path='/projects/drawshapes' element={<TimeShapes/>} />
             <Route exact path='/projects/todolist' element={<TodoList/>} />
             <Route exact path='/hello' element={<Hello />} />
             <Route exact path='/stories' element={<Pseudocode />} />
           </Routes>
         </Router>
-        <Footer/>
         </div>
       </>
   )

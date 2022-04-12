@@ -4,7 +4,19 @@ import "../style/treerings.css";
 
 function ButtonsMenu() {
 
-    // const [contents, setContents] = useState('')
+  const contentTitle= {
+    cir09: "About Me",
+    cir08: "Development Projects",
+    cir07: "Tools",
+    cir06: "Stories",
+    cir05: "CSS playground",
+    cir04: "About Me",
+    cir03: "Stories",
+    cir02: "Timed Shapes Gallery",
+    cir01: "Pseudocode",
+  };
+
+    const [title, setTitle] = useState('');
     let navigate = useNavigate(); 
 
     function showContent(path){
@@ -14,9 +26,10 @@ function ButtonsMenu() {
 
   return (
     <>
+        <h3 className='treerings-title'>{title}</h3>
       <svg className='treerings' viewBox="0 0 578.3 538.6" >
 
-        <g className='treecircle' onClick={() => showContent('/hello')} id="cir10">
+        <g className='treecircle' onClick={() => showContent('/hello')} id="cir09" onMouseOver={() => setTitle(contentTitle.cir09)} onMouseLeave={() => setTitle('')} >
           <g>
             <path class="st0" 
               d="M29.5,139.3c2.9-5.3,6-10.6,8.6-16.1c3.3-7.1,8.9-12.4,14.1-17.8C64,93,76.8,81.6,88.9,69.4
@@ -1195,7 +1208,7 @@ function ButtonsMenu() {
           </g>
         </g>
 
-        <g className='treecircle' onClick={() => showContent('/development')} id="cir09">
+        <g className='treecircle' onClick={() => showContent('/development')} id="cir08" onMouseOver={() => setTitle(contentTitle.cir08)} onMouseLeave={() => setTitle('')}  >
           <g>
             <path
               class="st0"
@@ -2107,7 +2120,7 @@ function ButtonsMenu() {
           </g>
         </g>
 
-        <g className='treecircle' onClick={() => showContent('/projects/tools')} id="cir08">
+        <g className='treecircle' onClick={() => showContent('/projects/tools')} id="cir07" onMouseOver={() => setTitle(contentTitle.cir07)} onMouseLeave={() => setTitle('')}  >
           <g>
             <path
               class="st0"
@@ -2722,7 +2735,7 @@ function ButtonsMenu() {
           </g>
         </g>
 
-        <g className='treecircle' onClick={() => showContent('/stories')} id="cir07">
+        <g className='treecircle' onClick={() => showContent('/stories')} id="cir06" onMouseOver={() => setTitle(contentTitle.cir06)} onMouseLeave={() => setTitle('')}  >
           <g>
             <path
               class="st0"
@@ -3118,7 +3131,7 @@ function ButtonsMenu() {
           </g>
         </g>
 
-        <g className='treecircle' onClick={() => showContent('/projects/css')} id="cir05">
+        <g className='treecircle' onClick={() => showContent('/projects/css')} id="cir05" onMouseOver={() => setTitle(contentTitle.cir05)} onMouseLeave={() => setTitle('')} >
           <g>
             <path
               class="st0"
@@ -3316,7 +3329,7 @@ function ButtonsMenu() {
           </g>
         </g>
       
-        <g className='treecircle' onClick={() => showContent('/hello')} id="cir04">
+        <g className='treecircle' onClick={() => showContent('/hello')} id="cir04" onMouseOver={() => setTitle(contentTitle.cir04)} onMouseLeave={() => setTitle('')}  >
           <g>
             <path
               class="st0"
@@ -3467,7 +3480,7 @@ function ButtonsMenu() {
           </g>
         </g>
 
-        <g className='treecircle' onClick={() => showContent('/stories')} id="cir03">
+        <g className='treecircle' onClick={() => showContent('/stories')} id="cir03" onMouseOver={() => setTitle(contentTitle.cir03)} onMouseLeave={() => setTitle('')}  >
           <g>
             <path
               class="st0"
@@ -3567,7 +3580,7 @@ function ButtonsMenu() {
           </g>
         </g>
 
-        <g className='treecircle' onClick={() => showContent('/projects/shapes')} id="cir02">
+        <g className='treecircle' onClick={() => showContent('/projects/shapes')} id="cir02" onMouseOver={() => setTitle(contentTitle.cir02)} onMouseLeave={() => setTitle('')}  >
           <g>
             <path
               class="st0"
@@ -3640,7 +3653,7 @@ function ButtonsMenu() {
           </g>
         </g>
 
-        <g className='treecircle' onClick={() => showContent('/stories')} id="cir01">
+        <g className='treecircle' onClick={() => showContent('/stories')} id="cir01" onMouseOver={() => setTitle(contentTitle.cir01)} onMouseLeave={() => setTitle('')}  >
           <g>
             <path
               class="st0"

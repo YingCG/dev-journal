@@ -2,7 +2,8 @@
 .tech {
   display: flex;
   justify-content: space-around;
-  padding: 2rem;
+  padding: 2rem 0rem;
+  flex-wrap: wrap;
 }
 
 .tech ul li{
