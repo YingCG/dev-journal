@@ -16,8 +16,8 @@ function Header() {
           </div>
         </div>
         <div className="header-right">
-        <div className="icongroup-dark">
-        <IconNav/>
+        <div>
+        <IconNav mode="icongroup-dark"/>
         </div>
         <Nav />
         </div>

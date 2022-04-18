@@ -1,38 +1,32 @@
-import React,{Component} from 'react'
-import Shape from "./Shape"
-// import NewShape from "./NewShape"
-import NewShapeForm from './NewShapeForm';
+import React, { useState } from 'react'
+import ShapeForm from './ShapeForm'
+import Shape from './Shape'
 
-class ShapeList extends Component {
-    constructor(props) {
-        super(props);
-        this.state = { shapes: [{ width: 10, height: 10, color: "orange"}] }
-        this.create = this.create.bind(this)
-    }
-    
-    remove(id){
-        this.setState({
-            shapes: this.state.shapes.filter(shape => shape.id !== id)
-        })
-    }
-    create(newShape){
-        this.setState({
-            shapes: [...this.state.shapes, newShape]
-        })
+
+function ShapeList() {
+    const [shapes, setShapes] = useState([{id: 1, width: 10, height: 10, color: "orange" }]);
+
+    function remove(id) {
+        setShapes(shapes.filter(shape => shape.id !== id))
     }
 
-    render() {
-        const shapes = this.state.shapes.map(shape => (
-            <Shape key={shape.id} id={shape.id} width = {shape.width} height={shape.height} color={shape.color} removeShape={()=> this.remove(shape.id)}/>
-        ))
-        return (
-            <div>
-                <h1>Color Shape Maker</h1>
-                <NewShapeForm createShape={this.create}/>
-                {shapes}
-            </div>
-        )
+    function create(newShape) {
+        setShapes([...shapes,
+        {
+            ...newShape,
+            id: shapes.length + 1
+        }])
     }
+
+    return (
+        <div>
+            <h1>Color Shape Maker</h1>
+            <ShapeForm createShape={create} />
+            {shapes.map(shape => (
+                <Shape key={shape.id} id={shape.id} width={shape.width} height={shape.height} color={shape.color} removeShape={() => remove(shape.id)} />
+            ))}
+        </div>
+    )
 }
 
 export default ShapeList

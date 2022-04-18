@@ -23,10 +23,11 @@ function Home() {
             <p>
             Programming is a universe itself yet to discover...
             Here, I am tracking my growth as a developer. <br/>
-            To share some project, stories or Internet site I come across while learning to code.
+            To share some project, stories or website I come across while learning to code.
             <br/>
-          How to code enjoyable and consistent? 
-           To Keep Calm and Stay Curious, I practice Human skills to code along.
+          How to code enjoyably and consistently? 
+           To Keep Calm and Stay Curious, I practice Human skills. <br/>
+           Growing like a trees with patience and commitment.
             </p>
 
             {/* <Link exact to='/stories'><button className='nav-btn'>Humanity</button></Link>

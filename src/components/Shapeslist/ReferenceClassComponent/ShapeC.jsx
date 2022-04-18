@@ -1,6 +1,7 @@
-import React from 'react'
+import React,{Component} from 'react'
 
-function NewShape() {
+class ShapeC extends Component {
+    render(){
         return (
             <>
             <div style={{
@@ -12,5 +13,5 @@ function NewShape() {
             </>
         )
 }
-
-export default NewShape;
+}
+export default ShapeC;

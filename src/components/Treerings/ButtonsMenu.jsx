@@ -3580,7 +3580,7 @@ function ButtonsMenu() {
           </g>
         </g>
 
-        <g className='treecircle' onClick={() => showContent('/projects/shapes')} id="cir02" onMouseOver={() => setTitle(contentTitle.cir02)} onMouseLeave={() => setTitle('')}  >
+        <g className='treecircle' onClick={() => showContent('/projects/shapes-gallery')} id="cir02" onMouseOver={() => setTitle(contentTitle.cir02)} onMouseLeave={() => setTitle('')}  >
           <g>
             <path
               class="st0"

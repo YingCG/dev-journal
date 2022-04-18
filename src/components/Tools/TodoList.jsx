@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import TodoItem from "./TodoItem";
 import '../style/tools.css'
+import Header from "../Header/Header";
 
 function TodoList () {
     const [inputText, setInputText] = useState('')
@@ -26,6 +27,8 @@ function TodoList () {
     }
 
     return (
+        <>
+        <Header/>
         <div className="todo" >
             <h1>To-Do List</h1>
             <div className="add-todo">
@@ -43,6 +46,7 @@ function TodoList () {
                 </ul>
             </div>
         </div>
+        </>
     )
 }
 

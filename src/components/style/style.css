@@ -39,7 +39,7 @@ body{
 .footer{
   text-align: center;
   color: #0a5944;
-  background-color: thistle;
+  background: linear-gradient(to right, #54BAB9, #98BAE7, #BAABDA, #A06EE1 );
   padding: 10px;
   align-items: center;
 }
