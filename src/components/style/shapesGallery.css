@@ -1,0 +1,39 @@
+.timed-shapes{
+    display: flex;
+    flex: 1 7;
+    min-height: 600px;
+    background-color: aliceblue;
+
+}
+
+.shapes-list{
+    background-color: #082032;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+
+.shapes-gallery{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shape-form{
+    padding: 15px;
+}
+
+.remove-btn{
+    position: absolute;
+    margin-top: -17.5px;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+input{
+    border: none;
+    background-color: white ;
+    padding: 5px;
+    margin-bottom: 5px;
+}

@@ -3,6 +3,8 @@ import React, { useReducer } from "react";
 import DigitButton from "./DigitButton";
 import OperationButton from "./OperationButton";
 import '../style/tools.css'
+import Nav from "../Header/Nav";
+import { Link } from "react-router-dom";
 
 export const ACTIONS = {
     ADD_DIGIT: "add-digit",
@@ -121,6 +123,12 @@ function Calculator({height}) {
 
     return (
         <div className="calculator-container" height={height}>
+                <Link to='/'><img className="logo" src="../images/YingCG.svg" alt="logo" style={{height: '50px'}}/></Link>
+                    <Nav/>
+                    <br/>
+                <br/>
+                <h1>Calculator</h1>
+
             <div className="calculator-grid">
                 <div className="output">
                     <div className="previous-operand">{previousOperand} {operation}</div>

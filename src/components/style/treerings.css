@@ -26,8 +26,12 @@ svg {
 }
 
 .treerings-title{
-    color: #CDB699;
-    z-index: 1;
+    color: #FAD9E6;
+    text-align: center;
+    /* z-index: 1;
+    position: absolute;
+    margin-top: -350px;
+    margin-left: 20px; */
 }
 
 .treecircle{
@@ -49,11 +53,12 @@ svg {
 }
 
 .icongroup a{
-    /* color: #FAD9E6; */
-    color: #ED0BFF;
+    color: #FAD9E6;
+    /* color: #ED0BFF; */
     font-size: 30px;
     margin-right: 1rem;
     padding-bottom: 0;
+    float: right;
 }
 
 .icongroup-dark{
@@ -61,7 +66,8 @@ svg {
 }
 
 .icongroup a:hover{
-    color: #FAD9E6;
+    /* color: #FAD9E6; */
+    color: #ED0BFF;
 }
 
 .icon-details{

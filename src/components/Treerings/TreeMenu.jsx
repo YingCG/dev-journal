@@ -1,12 +1,10 @@
-import React, { useState }  from 'react'
+import React from 'react'
 import "../style/treerings.css";
 import treemenu from '../../data/treemenu.js'
 import Story from '../Stories/Story';
 
 
 function TreeMenu() {
-
-    const [contents, setContents] = useState('')
 
 
   return (

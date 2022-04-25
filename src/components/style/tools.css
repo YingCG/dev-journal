@@ -1,4 +1,6 @@
-
+.sub-header{
+    display: flex;
+}
 
 .tools-container{
     display: grid;
@@ -12,6 +14,7 @@
     background: linear-gradient(to right,  #1572A1, #CCD1E4);
     color: white;
     padding:20px;
+    height: 100vh;
 }
 
 .add-todo{
@@ -24,6 +27,7 @@
     background: linear-gradient(to right, #4FD3C4, #FF8AAE);
     padding:20px;
     color: white;
+    height: 100vh;
 }
 
 .todo-item{
@@ -36,6 +40,7 @@
     border: none;
     /* height: 2rem; */
     padding: 0.5rem;
+    
 }
 .todo button{
     padding: 0.5rem;
@@ -48,7 +53,8 @@
 
 .todo-list{
     min-width: 300px;
-    min-height: 350px;
+    /* min-height: 350px; */
+    height: 70%;
     background-color: white;
     color: black;
     padding: 10px;

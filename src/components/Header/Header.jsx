@@ -16,9 +16,9 @@ function Header() {
           </div>
         </div>
         <div className="header-right">
-        <div className="icongroup-dark">
+        {/* <div className="icongroup-dark">
         <IconNav/>
-        </div>
+        </div> */}
         <Nav />
         </div>
       </div>
