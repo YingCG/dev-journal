@@ -1,14 +1,14 @@
 import React, {Component} from 'react';
-import ShapeList from './ShapeList';
+import ShapeListC from './ShapeListC'
 
-class Shapes extends Component {
+class ShapesC extends Component {
     render () {
         return (
             <div>
-                <ShapeList/>
+                <ShapeListC/>
             </div>
         )
     }
 }
 
-export default Shapes
+export default ShapesC

@@ -73,6 +73,10 @@ justify-content: flex-end;
     margin: 0.5rem 0.5rem;
 }
 
+.darkicon{
+    color: #0061AF;
+}
+
 .nav-btn:hover{
     background-color:#ED0BFF;
     color: white;
