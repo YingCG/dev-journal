@@ -123,7 +123,6 @@ function Calculator({height}) {
 
     return (
         <>
-        <Header/>
         <div className="calculator-container" height={height}>
                 <Link to='/'><img className="logo" src="../images/YingCG.svg" alt="logo" style={{height: '50px'}}/></Link>
                     <Nav/>

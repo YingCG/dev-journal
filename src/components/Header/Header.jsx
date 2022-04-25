@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import IconNav from "./IconNav";
 import Nav from "./Nav";
 
 function Header() {
@@ -16,19 +15,9 @@ function Header() {
           </div>
         </div>
         <div className="header-right">
-<<<<<<< HEAD
         {/* <div className="icongroup-dark">
         <IconNav/>
         </div> */}
-||||||| 78864c9a
-        <div className="icongroup-dark">
-        <IconNav/>
-        </div>
-=======
-        <div>
-        <IconNav mode="icongroup-dark"/>
-        </div>
->>>>>>> f88c38d20d91b29fae700dd0cca6f710d87cfa8e
         <Nav />
         </div>
       </div>

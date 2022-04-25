@@ -29,7 +29,6 @@ function TodoList () {
 
     return (
         <>
-        <Header/>
         <div className="todo" >
             <div>
                 <Link to='/'><img className="logo" src="../images/YingCG.svg" alt="logo" style={{height: '50px'}}/></Link>
