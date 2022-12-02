@@ -1,7 +1,9 @@
 .nav{
 justify-content: flex-end;
 }
-  
+.top-nav{
+    float: right;
+}
 .button {
     padding: 10px 20px;
     cursor: pointer;

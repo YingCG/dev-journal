@@ -27,3 +27,7 @@
 .tech-icon h3{
   font-size: 22px;
 }
+
+@media only screen and (max-width: 600px) {
+
+}

@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import IconNav from "./IconNav";
 import Nav from "./Nav";
 import logo from '../../images/Ying.svg'
 
@@ -17,9 +16,9 @@ function Header() {
           </div>
         </div>
         <div className="header-right">
-        <div>
-        <IconNav mode="icongroup-dark"/>
-        </div>
+        {/* <div className="icongroup-dark">
+        <IconNav/>
+        </div> */}
         <Nav />
         </div>
       </div>

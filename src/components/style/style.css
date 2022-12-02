@@ -53,6 +53,11 @@ body{
   display: flex;
 }
 
+.projects-header{
+  display: flex;
+  margin-bottom: 5px;
+}
+
 .project-img{
   background-color: transparent;
   border: none;

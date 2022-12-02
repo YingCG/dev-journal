@@ -6,13 +6,13 @@ function ButtonsMenu() {
 
   const contentTitle= {
     cir09: "About Me",
-    cir08: "Development Projects",
+    cir08: "Projects",
     cir07: "Tools",
     cir06: "Stories",
     cir05: "CSS playground",
     cir04: "About Me",
     cir03: "Stories",
-    cir02: "Timed Shapes Gallery",
+    cir02: "Shapes Gallery",
     cir01: "Pseudocode",
   };
 
@@ -26,7 +26,6 @@ function ButtonsMenu() {
 
   return (
     <>
-        <h3 className='treerings-title'>{title}</h3>
       <svg className='treerings' viewBox="0 0 578.3 538.6" >
 
         <g className='treecircle' onClick={() => showContent('/hello')} id="cir09" onMouseOver={() => setTitle(contentTitle.cir09)} onMouseLeave={() => setTitle('')} >
@@ -3747,6 +3746,7 @@ function ButtonsMenu() {
         </g>
 
       </svg>
+      <h3 className='treerings-title'>{title}</h3>
     </>
   );
 }

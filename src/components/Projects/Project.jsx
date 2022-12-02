@@ -1,21 +1,22 @@
 import React from "react";
 import { Link } from 'react-router-dom'
 import Calculator from "../Calculator/Calculator";
+import IconNav from "../Header/IconNav";
 import TodoList from "../Tools/TodoList";
 
 
 function Project() {
 
 
-  return (
-    <div className="wrapper">
-
-      <h1 className="double-line">Some project I created.</h1>
-
-      <div className="case-study-container">
-
-        <div className="case-study">
-          <div className="project" >
+    return(
+        <div className="wrapper">
+        <div className='projects-header'>
+            <h1 className="double-line">Some project I created.</h1>
+            <IconNav />
+        </div>
+        <div className="case-study-container">
+          <div className="case-study">
+            <div className="project" >
             <a href="https://yingcg.github.io/EyeCandyCinema/" target="_blank" rel="noreferrer">
               <img className='project-img' src='/images/EyeCandyCinema.jpg' alt='website interface' width="100%" height="auto" />
               {/* <iframe title='HTML | CSS' src="https://yingcg.github.io/EyeCandyCinema/" width="100%" height="300" /> */}
@@ -63,19 +64,19 @@ function Project() {
             <div className="case-title double-line">ReactHook | CSS </div>
             <p> A To-do-List using concept of React From to handle event.</p>
           </div>
+          </div>
+
+          <div className="case-study">
+            <div className="project" width="100%" height="auto">
+            <Link className='project-img' exact to='/projects/shapes-gallery'>
+              <img className='project-img' src='/images/Shapes.png' alt='website interface'  width="100%" height="auto"/>
+            </Link>
+            <div className="case-title double-line">Create shapes </div>
+              </div>
+          </div>
         </div>
 
-      <div className="case-study">
-        <div className="project" width="100%" height="auto">
-          <Link className='project-img' exact to='/development'>
-            <img className='project-img' src='/images/ProjectRoadmap.jpg' alt='colour-pallete' width="100%" height="auto" />
-          </Link>
-          <div className="case-title double-line">Colour pallete </div>
-          <p> We can change the array of predefined colours, also able to change each individual colour with onClick event.</p>
-        </div>
-      </div>
-
-      </div>
+     
       </div>
     )
 }

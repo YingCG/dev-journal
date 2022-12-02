@@ -7,6 +7,7 @@ import Greeting from '../Greeting/Greeting'
 import { Link } from 'react-router-dom'
 import Header from '../Header/Header'
 import Technologies from '../About/Technologies'
+import IconNav from '../Header/IconNav'
 
 function Home() {
 
@@ -48,6 +49,7 @@ function Home() {
         <div className="welcome-hello">
             <Ascii />
             <h3><Greeting greeting={' I design & build web applications with ReactJS.'} /> </h3>
+            <IconNav/>
             <p className='typewriter'>
               <Link className='sml-btn' exact to='/development' rel="projects road map"> Project Road Map</Link>
              How I grow as a developer?
