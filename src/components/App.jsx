@@ -20,7 +20,7 @@ function App() {
       <div className="app-container">
         <Router>
           <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route exact path="/dev-journal" element={<Home />} />
             <Route exact path="/design" element={<Design />} />
             <Route exact path="/development" element={<Projects />} />
             <Route exact path="/projects/css" element={<Css />} />
