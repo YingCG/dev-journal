@@ -1,6 +1,5 @@
 {
-  "name": "yingcg",
-  "home": "https://yingcg.github.io/dev-journal",
+  "name": "dev-journal",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
