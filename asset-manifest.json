@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/dev-journal/static/css/main.b697be85.css",
+    "main.js": "/dev-journal/static/js/main.94432fdb.js",
+    "static/media/Ying.svg": "/dev-journal/static/media/Ying.9cdabc910239a3ddca2e674782c846af.svg",
+    "index.html": "/dev-journal/index.html",
+    "main.b697be85.css.map": "/dev-journal/static/css/main.b697be85.css.map",
+    "main.94432fdb.js.map": "/dev-journal/static/js/main.94432fdb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b697be85.css",
+    "static/js/main.94432fdb.js"
+  ]
+}
