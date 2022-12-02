@@ -2,13 +2,14 @@ import React from "react";
 import { Link } from 'react-router-dom'
 import IconNav from "./IconNav";
 import Nav from "./Nav";
+import logo from '../../images/Ying.svg'
 
 function Header() {
   return (
       <div className="header">
               <div className="header-left">
 
-        <Link to='/'><img className="logo" src="/YingCG.svg" alt="logo"/></Link>
+        <Link to='/'><img className="logo" src={logo} alt="logo"/></Link>
           <div className="header-content">
           
             <h1>Ying Web Design &amp; Develop</h1>

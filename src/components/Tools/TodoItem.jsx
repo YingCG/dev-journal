@@ -14,7 +14,7 @@ function TodoItem(props){
             <li className='todo-item' style={{textDecoration: isDone? 'line-through': 'none'}} >
                 {props.text}
                 <span className='todo-item' > <button onClick={crossOut}>Done</button></span>
-                <span className='todo-item' ><button onClick={() => props.deleteItem()}> Delete </button></span>
+                <span className='todo-item' ><button onClick={() => props.deleteItem(props)}> Delete </button></span>
             </li>
         </div>
     )

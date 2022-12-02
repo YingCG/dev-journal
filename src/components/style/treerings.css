@@ -38,7 +38,7 @@ svg {
     opacity: 70%
 }
 
-.treecircle:hover{
+.treecircle:hover, .treecircle:focus, .treecircle:active{
     fill: #FAD9E6;
     /* fill: #E3CAA5; */
     opacity: 100%

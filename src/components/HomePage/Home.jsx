@@ -42,7 +42,6 @@ function Home() {
           </div>
         </div>
       </div>
-      <Project />
       <Footer/>
     </>
   );
