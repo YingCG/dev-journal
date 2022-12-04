@@ -1,7 +1,6 @@
 # React App
 
-In the project directory, you can run:
-
+A draft of some Personal project.
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -11,8 +10,7 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 ### Deployment
-
-You can view the current progress of this apps here: [https://dev-journal-ying.herokuapp.com]
+https://yingcg.github.io/dev-journal/
 
 ### User story
 I am tracking my growth as a developer. 
