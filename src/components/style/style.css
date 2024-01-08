@@ -92,6 +92,7 @@ h3{
 .case-title {
   font-size: large;
   font-weight: bold;
+  text-align: left;
 }
 
 .wrapper {

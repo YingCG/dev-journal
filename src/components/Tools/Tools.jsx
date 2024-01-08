@@ -1,7 +1,7 @@
 import React from 'react'
-import Calculator from '../Calculator/Calculator'
 import Header from '../Header/Header'
-import TodoList from './TodoList'
+import Calculator from './Calculator/Calculator'
+import TodoList from './TodoList/TodoList'
 
 function ReactForm(){
     return(

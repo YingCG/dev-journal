@@ -2,26 +2,25 @@ const projects = [
     {
         id: 'square1',
         title: "UX design",
-        description: "Considering the Why, What and How of product use. To learn the value of customer journey mapping from broad patterns to individual relevant experiences. Wireframe tool helps us plan out the ideal blueprint of a website.",
+        description: "Understanding the 'Why, What, and How' of product use is crucial. Discover the value of customer journey mapping, from broad patterns to individual relevant experiences. Utilize wireframe tools to plan out the ideal blueprint of a website.",
         links: [ 
-        //   {
-        //   title: "Customer Journey",
-        //   url: "/projects/uxdesign",
-        //   route: true
-        // },
         {
-          title: "Adobe XD",
-          url: "https://xd.adobe.com/view/5bee77bc-6104-48b2-b6ab-e0dbcecbaaf7-0ebd/"
+          title: "UX Research Report",
+          url: "https://drive.google.com/file/d/1rP7JlI9mRJCDGHzUHMYjBt-abS07gV8l/view?usp=sharing"
         },
         {
-          title: "Figma",
-          url: "https://www.figma.com/file/HlozULH29aHAGHduxfEeYC/Resource-Art?node-id=1%3A791"
+          title: "Wireframe & Prototype",
+          url: "https://xd.adobe.com/view/5bee77bc-6104-48b2-b6ab-e0dbcecbaaf7-0ebd/grid"
+        },
+        {
+          title: "Business Case Study Report",
+          url: "https://www.figma.com/proto/MJ3V8KjX7mp311coyyFCeK/Scenario-based-Business-Case-Report?node-id=133-4&starting-point-node-id=133%3A4&scaling=scale-down"
         }],
       },
       {
         id: 'square2',
         title: "HTML & CSS Website",
-        description: "HTML help to build the architecture of a website. CSS allowed us to apply styles of the space. We specify the layout according to the moodboard and concept we are achieving. ",
+        description: "HTML builds the architecture of a website, while CSS applies styles to the space. Specify the layout according to the moodboard and concept to achieve the desired look and feel.        ",
         links: [{
           title: "Eye Candy Cinema",
           url: "https://yingcg.github.io/EyeCandyCinema/"
@@ -30,37 +29,43 @@ const projects = [
           title: "My CSS Playground",
           url: "/projects/css",
           route: true
+        },{
+          title: "Retouch Barn",
+          url: "https://yingcg.github.io/retouchbarn/"
         }],
       },
       {
         id: 'square3',
         title: "Vanilla Javascript",
-        description: "JavaScript can access and change HTML elements, HTML attributes and CSS styles of a website.Using JavaScript to manipulate the DOM, and adding events to the website to create better experience in the browser.",
+        description: "Just like connect to the electric and water supply to the site, little behaviour to make beautiful space better experience while enjoy and stay. Using JavaScript to manipulate the DOM, and adding events to the website to create better experience in the browser.",
         links: [{
           title: "Javascript Basic",
           url: "https://yingcg.github.io/blog/js-fundamentals.html",
-          // url: "/projects/javascript-basic",
-          // route: true
         },
         {
           title: "Minesweeper Game",
           url: "https://yingcg.github.io/minesweeper/",
+        },
+        {
+          title: "Shape Gallery",
+          url: "https://github.com/YingCG/shape-gallery",
         }],
       },
       {
         id: 'square4',
-        title: "HTML | CSS | Javascript",
-        description: "You can program actions, conditions, calculations, network requests, concurrent tasks and many other kinds of instructions. Just like connect to the electric and water supply to the site, little behaviour to make beautiful space better experience while enjoy and stay.",
-        links: [{
-          title: "Retouch Barn",
-          url: "https://yingcg.github.io/retouchbarn/"
-        }
-        // ,{
-        //     title: "Breath & Relax App",
-        //     url: "/projects/breathe-exercise",
-        //     route: true
-        // }
-      ]
+        title: "Javascript Framework",
+        description: "As I progress in my coding journey, to create animated, interactive webpages, to program actions, conditions, calculations, and most importancely to create reusable components for Object-Oriented programming.",
+        links: [
+        {
+            title: "Interaction design template",
+            url: "https://interaction-design-kappa.vercel.app/",
+            // route: true
+        },
+        {
+            title: "Make a booking",
+            url: "https://github.com/YingCG/make-a-booking",
+            // route: true
+        }]
       },
       // {
       //   id: 'square5',

@@ -1,5 +1,5 @@
 import React from 'react';
-import '../style/tech.css'
+// import '../style/tech.css'
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 import { MdEmail } from 'react-icons/md';
 
