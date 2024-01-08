@@ -1,14 +1,19 @@
 {
   "files": {
-    "main.css": "/dev-journal/static/css/main.c546c238.css",
-    "main.js": "/dev-journal/static/js/main.83cba87b.js",
+    "main.css": "/dev-journal/static/css/main.8eede5e2.css",
+    "main.js": "/dev-journal/static/js/main.38a91087.js",
+    "static/media/RainfallResearch.jpg": "/dev-journal/static/media/RainfallResearch.82a85f8b66c47ce4bb73.jpg",
+    "static/media/IdxDesgin.png": "/dev-journal/static/media/IdxDesgin.2b0a0a5f9608a55cd7d8.png",
+    "static/media/ruburban.jpg": "/dev-journal/static/media/ruburban.544f598d866f98b75914.jpg",
     "static/media/Ying.svg": "/dev-journal/static/media/Ying.9cdabc910239a3ddca2e674782c846af.svg",
+    "static/media/YingCG.svg": "/dev-journal/static/media/YingCG.641a13c834e6fa4cb1f00a00c8ab207e.svg",
+    "static/media/pallette_icon.svg": "/dev-journal/static/media/pallette_icon.3a794049dc8783952200c13a53a37c82.svg",
     "index.html": "/dev-journal/index.html",
-    "main.c546c238.css.map": "/dev-journal/static/css/main.c546c238.css.map",
-    "main.83cba87b.js.map": "/dev-journal/static/js/main.83cba87b.js.map"
+    "main.8eede5e2.css.map": "/dev-journal/static/css/main.8eede5e2.css.map",
+    "main.38a91087.js.map": "/dev-journal/static/js/main.38a91087.js.map"
   },
   "entrypoints": [
-    "static/css/main.c546c238.css",
-    "static/js/main.83cba87b.js"
+    "static/css/main.8eede5e2.css",
+    "static/js/main.38a91087.js"
   ]
 }
