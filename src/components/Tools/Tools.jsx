@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../Header/Header'
 import Calculator from './Calculator/Calculator'
 import TodoList from './TodoList/TodoList'
+import EventCalendar from './EventCalendar/EventCalendar'
 
 function ReactForm(){
     return(
@@ -11,6 +12,7 @@ function ReactForm(){
         <div className="tools-container">
             <Calculator/>
             <TodoList />
+            <EventCalendar/>
         </div>
         </div>
         </>

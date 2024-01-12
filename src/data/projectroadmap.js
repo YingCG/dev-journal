@@ -20,7 +20,7 @@ const projects = [
       {
         id: 'square2',
         title: "HTML & CSS Website",
-        description: "HTML builds the architecture of a website, while CSS applies styles to the space. Specify the layout according to the moodboard and concept to achieve the desired look and feel.        ",
+        description: "HTML builds the architecture of a website, while CSS applies styles to the space. Specify the layout according to the moodboard and concept to achieve the desired look and feel.",
         links: [{
           title: "Eye Candy Cinema",
           url: "https://yingcg.github.io/EyeCandyCinema/"
@@ -37,7 +37,7 @@ const projects = [
       {
         id: 'square3',
         title: "Vanilla Javascript",
-        description: "Just like connect to the electric and water supply to the site, little behaviour to make beautiful space better experience while enjoy and stay. Using JavaScript to manipulate the DOM, and adding events to the website to create better experience in the browser.",
+        description: "Just like connect to the electric and water supply to the site, little behaviour can enhance the digital experience more enjoyable. Using JavaScript to manipulate the DOM, I am adding events to the website to create better experience in the browser.",
         links: [{
           title: "Javascript Basic",
           url: "https://yingcg.github.io/blog/js-fundamentals.html",
@@ -54,7 +54,7 @@ const projects = [
       {
         id: 'square4',
         title: "Javascript Framework",
-        description: "As I progress in my coding journey, to create animated, interactive webpages, to program actions, conditions, calculations, and most importancely to create reusable components for Object-Oriented programming.",
+        description: "My interest of creating interactive experience has motivate me to start this coding journey. You can inmagine how exited I was to update the states!!! Are you aware that you can clicking to individual square box to change colour on this page?",
         links: [
         {
             title: "Interaction design template",
@@ -62,69 +62,81 @@ const projects = [
             // route: true
         },
         {
-            title: "Make a booking",
-            url: "https://github.com/YingCG/make-a-booking",
-            // route: true
-        }]
-      },
-      // {
-      //   id: 'square5',
-      //   title: "Functions | Events | Callbacks",
-      //   description: "Now you know how to write JavaScript code, and how to use functions like getElementById() to make your webpage interactive. ",
-      //   links: [{
-      //     title: "Functions & Events",
-      //     url: "",
-      //     route: true
-      //   }, {
-      //     title: "Classes",
-      //     url: "",
-      //     route: true
-      //   }]
-      // },
-      {
-        id: 'square6',
-        title: "JavaScript library ",
-        description: "JavaScript library for Object-Oriented programming that helps to create animated, interactive webpages. Don’t repeat yourself. Use templates instead by creating reusable components. ",
-        links: [{
-          title: "Handlebars",
-          url: "https://pupparazi-ying.herokuapp.com/puppies"
-        },{
           title: "React App",
           url: "http://photoimagecbd.herokuapp.com"
+        }
+        // {
+        //     title: "Make a booking",
+        //     url: "https://github.com/YingCG/make-a-booking",
+        //     // route: true
+        // },
+
+    ]
+      },
+      {
+        id: 'square5',
+        title: "Functions | Events ",
+        description: "With a solid understanding of writing JavaScript code and utilizing functions like getElementById(), I progress to programming actions, conditions, calculations, and, most importantly, crafting reusable components for Object-Oriented programming.",
+        links: [     
+           {
+            title: "Ticket Dashboard",
+                url: "https://next-dashboard-yingcg.vercel.app/",
+                // route: true
+          }, {
+            title: "Your To-do List",
+            url: "/projects/todolist",
+            route: true
+          },{ title: "Calculator", url: "/projects/calculator", route: true },
+         ]
+      },
+      {
+        id: 'square6',
+        title: "Callbacks | API | Server",
+        description: "Imagine I’m sitting at a table in a restaurant with a menu of choices. The kitchen is the part of the 'system' that will prepare my order. What is missing is the critical link to communicate my order to the kitchen and deliver the food back to my table. That’s where the waiter or API comes in. Either the food is pre-cook (API) or cooking from the internal kitchen(Server) ",
+        links: [ {
+          title: "callback-promises-asyncAwait",
+          url: "https://github.com/YingCG/callback-promises-asyncAwait",
+          // route: true
+        },{
+          title: "React and Sanity",
+          url: "https://github.com/YingCG/react-sanity",
+        }]
+      },{
+        id: 'square7',
+        title: "Database | CRUD",
+        description: "I am fortunate enought to have people explain to me the concept of database when I learned the SQL. Here I am sharing a documentation that I think it is easy intro to understand the concept of database. To explore how to Create, Read, Update and Delete from the database. I have practice creating app using different database in a few different projects ",
+        links: [
+          {
+          title: "SQL notes",
+           url: "https://drive.google.com/file/d/1jhNNzyPG9GrWV5JroXeGt3461Yq7-7Ql/view?usp=sharing",
+        },
+          {
+          title: "MERN stack",
+           url: "https://github.com/YingCG/MERN-demo",
+          // route: true
+        },
+        {
+          title: "Koios Education(Knex Database)",
+          url: "https://github.com/YingCG/koios-education",
+        //  route: true
+        },
+        {
+          title: "Window Form",
+          url: "https://github.com/YingCG/CsharpOOP-WindowsForm",
+        }]
+      },{
+        id: 'square8',
+        title: "Authentication",
+        description:"In these repo,I am exploring authentication using nodejs-express as backend and different level of authentication! The practice take me to more complext state management, how to pass in object as a wrapper.  I am still in the learning curve of getting it more familiar ",
+        links: [ {
+          title: "Different way of Authentication",
+          url: "https://github.com/YingCG/DifferentAuthentication",
+          // route: true
+        },{
+          title: "Log in with Google",
+          url: "https://github.com/YingCG/useContext-googleLogIn",
         }]
       }
-      // ,{
-      //   id: 'square7',
-      //   title: "React Form",
-      //   description: "Handling Multiple Inputs ",
-      //   links: [{
-      //     title: "Your To-do List",
-      //     url: "/projects/todolist",
-      //     route: true
-      //   } ]
-      // },{
-      //   id: 'square8',
-      //   title: "API",
-      //   description: "Imagine you’re sitting at a table in a restaurant with a menu of choices to order from. The kitchen is the part of the “system” that will prepare your order. What is missing is the critical link to communicate your order to the kitchen and deliver your food back to your table. That’s where the waiter or API comes in. ",
-      //   links: [{
-      //     title: "API",
-      //      url: "/projects/api",
-      //     route: true
-      //   } ]
-      // },{
-      //   id: 'square9',
-      //   title: "Database",
-      //   description: "Imagine you’re sitting at a table in a restaurant with a menu of choices to order from. The kitchen is the part of the “system” that will prepare your order. What is missing is the critical link to communicate your order to the kitchen and deliver your food back to your table. That’s where the waiter or API comes in. ",
-      //   links: [{
-      //     title: "Knex",
-      //      url: "/projects/knex",
-      //     route: true
-      //   },{
-      //     title: "MongoDB",
-      //     url: "/projects/mongodb",
-      //    route: true
-      //   } ]
-      // }
 ]
 
 export default projects;

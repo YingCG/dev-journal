@@ -42,7 +42,7 @@ function SquareList() {
   return (
     <>
       <div className='two-column'>
-      <div className="big-square" >
+      <div className="big-square" onClick={changeOneColour}>
             <h1 style={{ fontSize: '2.5rem'}}> Projects Roadmap </h1>
             <Greeting greeting={'Welcome to my coding journal. '} style={{color: '#3D087B'}} /> 
               <p> As a developer, I am constantly learning and exploring the possibilities to approach problems.
@@ -54,15 +54,16 @@ function SquareList() {
               </p>
               <div className='pallete' onClick={changeColourPallete}>
             <img className='pallette-icon' src={PalletteIcon} alt="pallete" onClick={changeColourPallete}></img>
-            <h6>You can change the colour pallette by clicking this  </h6>
+            <h6>You can change the colour pallette by clicking this circle </h6>
           </div>
+            <h5> or click on individual box to change colour --></h5>
           </div> 
           <div className='square-container' >
             {
               projects.map((info, index) => <Square key={index} colors={colors} index={index} info={info} updateColor={changeOneColour} />)
             }
 
-            <div >
+            {/* <div >
               <Square colors={colors} index={5} info={{
                 title: "React State",
                 description: "State is used with React Component Classes to make them dynamic.",
@@ -91,7 +92,7 @@ function SquareList() {
                 links: [{ title: "Calculator", url: "/projects/calculator", route: true }]
               }} updateColor={changeOneColour} >
               </Square>
-            </div>            
+            </div>             */}
             </div>
         </div>
 
