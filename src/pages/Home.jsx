@@ -2,6 +2,7 @@ import React from "react";
 import '../components/style/squarelist.css'
 import '../components/style/treerings.css'
 import '../components/style/hello.css'
+import '../components/style/style.css'
 
 import ButtonsMenu from "../components/Treerings/ButtonsMenu";
 import { Link } from 'react-router-dom'

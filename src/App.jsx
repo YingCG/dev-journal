@@ -14,6 +14,7 @@ import TimedShapes from "./components/TimedShapes/TimedShapes";
 import Calculator from "./components/Tools/Calculator/Calculator";
 import Pseudocode from "./components/Stories/Pseudocode";
 import About from "./pages/About";
+import EventCalendar from "./components/Tools/EventCalendar/EventCalendar";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
             <Route exact path='/projects/calculator' element={<Calculator/>} />
             <Route exact path='/projects/shapes-gallery' element={<TimedShapes/>} />
             <Route exact path='/projects/todolist' element={<TodoList/>} />
+            <Route exact path='/projects/calendar' element={<EventCalendar/>} />
             <Route exact path='/stories' element={<Pseudocode />} />
           </Routes>
         </Router>
