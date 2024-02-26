@@ -16,7 +16,7 @@ function Square(props) {
         <p>{props.info.description}</p><br />
         {
             props.info.links.map((link, index) =>
-                <button className='btn'>
+                <button className='btn'  key={index}>
                     {link.route 
                     ? <Link key={index} to={link.url}>{link.title}</Link> 
                     : <a key={index} href={link.url}>{link.title} </a>}

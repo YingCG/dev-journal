@@ -25,12 +25,12 @@ function SquareList() {
 
   function changeColourPallete() {
     const newColors = [];
-
     for (let i = 0; i < 12; i++) {
       const newColor = pallete[Math.floor(Math.random() * pallete.length)];
       newColors.push(newColor)
     }
-
+    
+    console.log(newColors)
     setColors(newColors)
   }
 
@@ -53,10 +53,10 @@ function SquareList() {
                 <br/>
               </p>
               <div className='pallete' onClick={changeColourPallete}>
-            <img className='pallette-icon' src={PalletteIcon} alt="pallete" onClick={changeColourPallete}></img>
+            <img className='pallette-icon' src={PalletteIcon} alt="pallete"></img>
             <h6>You can change the colour pallette by clicking this circle </h6>
           </div>
-            <h5> or click on individual box to change colour --></h5>
+            <h5> or click on individual box to change colour &#8594;	</h5>
           </div> 
           <div className='square-container' >
             {

@@ -1,6 +1,6 @@
 import React from "react";
 import CurrentProject from "../components/ProjectsRoadMap/CurrentProject";
-import SquareList from "../components/SquareList/SquareList";
+import SquareList from "../components/ProjectsRoadMap/SquareList";
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 

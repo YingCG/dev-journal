@@ -7,6 +7,8 @@ import Header from '../components/Header/Header'
 import Tools from '../components/Tools/Tools'
 import Calculator from '../components/Tools/Calculator/Calculator'
 import TodoList from '../components/Tools/TodoList/TodoList'
+import '../components/style/style.css'
+import '../components/style/hello.css'
 
 export default function About() {
     return (

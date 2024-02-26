@@ -1,9 +1,7 @@
 import React from "react";
 import '../components/style/squarelist.css'
 import '../components/style/treerings.css'
-import '../components/style/hello.css'
 import '../components/style/style.css'
-
 import ButtonsMenu from "../components/Treerings/ButtonsMenu";
 import { Link } from 'react-router-dom'
 import Typewriter from "../components/Greeting/Typewriter";
@@ -31,9 +29,10 @@ function Home() {
           How to code enjoyably and consistently? 
            To Keep Calm and Stay Curious, I also practice human skills. Growing like a tree, with patience and commitment. <br/>
             </p>
-
-            <Link exact to='/development'><button className='nav-btn'>Projects</button></Link>
-            <Link exact to='/hello'><button className='nav-btn'>About Me</button></Link>
+            <div className="nav-home">
+              <Link exact to='/development'><button className='nav-btn'>Projects</button></Link>
+              <Link exact to='/hello'><button className='nav-btn'>About Me</button></Link>
+            </div>
           </div>
           <div className="stories-btn">
             <IconNav />

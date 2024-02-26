@@ -1,7 +1,7 @@
 import React from "react";
 import RubUrban from '../../images/ruburban.jpg'
 import RainfallResearch from '../../images/RainfallResearch.jpg'
-import Idx from '../../images/IdxDesgin.png'
+import Rechart from '../../images/datavisualization-rechart.png'
 
 function CurrentProject() {
 
@@ -15,7 +15,7 @@ function CurrentProject() {
           <div className="case-study">
             <div className="project" >
             <a href="https://www.figma.com/proto/rl3I5zVuhiWcpQaIL93T7C/Rainfall-Research?node-id=0-1486&scaling=scale-down" target="_blank" rel="noreferrer">
-              <img className='project-img' src={RainfallResearch} alt='Rainfall Research' width="100%" height="auto" />
+              <img className='project-img' src={RainfallResearch} alt='Rainfall Research' width="100%" height="275px" />
             </a>
             <div className="case-title double-line" > Rainfall Analysis and Prediction</div>
             <p> Machine learning has revolutionized creative research practices, offering possibilities for combining technological and environmental knowledge into artistic creations.  This is a research about local rainfall in Auckland New Zealand while I am currently expanding my skills in data analysis, visualization, and machine learning techniques. </p>
@@ -24,8 +24,8 @@ function CurrentProject() {
 
         <div className="case-study">
           <div className="project">
-            <a href="https://creativehendersonmassey.org.nz/portfolio_page/ruburban/" target="_blank" rel="noreferrer">
-              <img className='project-img' src={RubUrban} alt='Rubbing on Sydmonds Street' width="100%" height="auto" />
+            <a href="https://www.figma.com/proto/QEfHbcqgqpfZ2fwQNBB9I8/10-minute-walks?type=design&node-id=2-30&t=1yNFviShbpIbnk8L-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A30" target="_blank" rel="noreferrer">
+              <img className='project-img' src={RubUrban} alt='Rubbing on Sydmonds Street' width="100%" height="275px" />
             </a>
             <div className="case-title double-line"> 10-minutes Walk</div>
             <p> 10-minutes walk is a spin-off activity founded by RubUrban's. RubUrban is a fluid collective of artists led by Cath O’Brien, working with local communities to connect with their physical environments and one another through the process of walking together or alone. Using the process of frottage or rubbing they will work with local communities to create ‘urban prints’ of their local environments.</p>
@@ -34,13 +34,11 @@ function CurrentProject() {
 
         <div className="case-study">
           <div className="project">
-            <a href="https://www.figma.com/proto/sULiBePRQ9qpQd3c1FTw20/Interaction-Design-Term1?node-id=626-87&starting-point-node-id=626%3A87&scaling=scale-down" target="_blank" rel="noreferrer">
-              <img className='project-img' src={Idx} alt='Interaction Desgin Course Cover' width="100%" height="auto" />
+            <a href="https://dashboard-recharts-n9fn1qol3-yingcg.vercel.app/" target="_blank" rel="noreferrer">
+              <img className='project-img' src={Rechart} alt='Interaction Desgin Course Cover' width="100%" height="275px" />
             </a>
-            <div className="case-title double-line">Course Design & Deliver</div>
-            <p> As an IT Lecturer, I guide students through the world of technology with empathy, creativity, and authenticity. My focus is on
-                creating a comfortable and engaging learning environment to make IT education accessible and enjoyable. Alongside teaching,
-                I’m a Creative Web Designer and Developer with a keen interest in content creation.</p>
+            <div className="case-title double-line">Data Visualization</div>
+            <p> Reconizing data visualization is an important aspect of the modern apps. In this project, I'm experimenting with displaying data using Rechart. This package, similar to Matplotlib or Seaborn in the context of Pandas (Python), allows us to acquire interactive insights from data, making it easy to create essential dashboard elements such as line charts, plots, and bars with an interactive experience.</p>
           </div>
         </div>
 
