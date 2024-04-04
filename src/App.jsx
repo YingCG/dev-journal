@@ -15,6 +15,7 @@ import Calculator from "./components/Tools/Calculator/Calculator";
 import Pseudocode from "./components/Stories/Pseudocode";
 import About from "./pages/About";
 import EventCalendar from "./components/Tools/EventCalendar/EventCalendar";
+import ShapeGallery from "./components/ShapeGallery/ShapeGallery";
 
 function App() {
   return (
@@ -23,17 +24,29 @@ function App() {
         <Router>
           <Routes>
             <Route exact path="/" element={<Home />} />
-            <Route exact path="/design" element={<Design />} />
+            <Route exact path="/design" element={<ShapeGallery />} />
             <Route exact path="/development" element={<Projects />} />
             <Route exact path="/hello" element={<About />} />
-            <Route exact path='/projects/css' element={<Css/>} />
-            <Route exact path='/projects/javascript-basic' element={<JsBasic/>} />
-            <Route exact path='/projects/tools' element={<Tools/>} />
-            <Route exact path='/projects/calculator' element={<Calculator/>} />
-            <Route exact path='/projects/shapes-gallery' element={<TimedShapes/>} />
-            <Route exact path='/projects/todolist' element={<TodoList/>} />
-            <Route exact path='/projects/calendar' element={<EventCalendar/>} />
-            <Route exact path='/stories' element={<Pseudocode />} />
+            <Route exact path="/projects/css" element={<Css />} />
+            <Route
+              exact
+              path="/projects/javascript-basic"
+              element={<JsBasic />}
+            />
+            <Route exact path="/projects/tools" element={<Tools />} />
+            <Route exact path="/projects/calculator" element={<Calculator />} />
+            <Route
+              exact
+              path="/projects/shapes-gallery"
+              element={<TimedShapes />}
+            />
+            <Route exact path="/projects/todolist" element={<TodoList />} />
+            <Route
+              exact
+              path="/projects/calendar"
+              element={<EventCalendar />}
+            />
+            <Route exact path="/stories" element={<Pseudocode />} />
           </Routes>
         </Router>
       </div>
